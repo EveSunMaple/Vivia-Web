@@ -1,6 +1,9 @@
 ---
-title: {{title}}
-date: {{date}}
+title:
+  '[object Object]': null
+date:
+  '[object Object]': null
 categories:
+  - Template
 tags:
 ---
