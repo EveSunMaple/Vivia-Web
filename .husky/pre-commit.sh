@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx hexo generate && git add . && git config --global --unset http.proxy && git config --global --unset https.proxy
+npx hexo generate && git add . && git config --global http.sslVerify "false"
