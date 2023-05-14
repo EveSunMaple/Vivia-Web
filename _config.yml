@@ -14,7 +14,10 @@ timezone: ''
 # Hexo Github Canlendar
 # Author: Ice Kano
 # Modify: Lete乐特
-
+search:
+  path: search.xml
+  field: post
+  content: true
 # butterfly
 githubcalendar:
   enable: true

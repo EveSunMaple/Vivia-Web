@@ -390,10 +390,6 @@ local_search:
   # Unescape html strings to the readable one.
   unescape: false
   CDN:
-    option:
-      # main_css:
-      # translate:
-      local_search: https://npm.elemecdn.com/anzhiyu-blog@2.1.2/js/search/local-search.js
 
 # Docsearch
 docsearch:
@@ -509,7 +505,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://my-twikoo-five-livid.vercel.app/
+  envId: http://twikoo.saroprock.com/
   region:
   visitor: false
   option:
