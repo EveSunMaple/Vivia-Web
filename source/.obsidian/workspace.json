@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md"
+                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md"
               }
             }
           },
@@ -175,17 +175,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f74700c421d04176",
+  "active": "a8410343c18385b9",
   "lastOpenFiles": [
-    "_posts/OI学习笔记/图论",
-    "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
+    "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+    "_posts/OI学习笔记/图论",
     "img/zdl1.webp",
     "img/zdl1.webp.crdownload",
     "img",
     "新建文件夹",
     "未命名",
-    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/搜索",
     "_posts/OI学习笔记/动态规划",
     "Template/Front-matter.md"
