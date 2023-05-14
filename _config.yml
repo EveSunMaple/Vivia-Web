@@ -109,5 +109,9 @@ deploy:
 # depth: the max_depth of directory-tree you want to generate, should > 0
 
 auto_category:
- enable: true
- depth:
+  enable: true
+  depth:
+  
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
