@@ -507,7 +507,7 @@ facebook_comments:
 twikoo:
   envId: http://twikoo.saroprock.com/
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
