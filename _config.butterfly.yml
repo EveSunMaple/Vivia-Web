@@ -30,7 +30,7 @@ gitcalendar:
     type: id
     name: recent-posts
     index: 0
-  user: ShiJieCloud #git用户名
+  user: EveSunMaple #git用户名
   apiurl: "https://github.saroprock.com/api/?EveSunMaple" #替换自建 api
   minheight:
     pc: 280px #桌面端最小高度
