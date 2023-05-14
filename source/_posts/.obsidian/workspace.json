@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "53195ad14e7eea43",
@@ -155,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,9 +169,9 @@
   },
   "active": "4d12e365da4c4ec8",
   "lastOpenFiles": [
-    "Template/Front-matter.md",
-    "测试文章.md",
     "hello-world.md",
+    "测试文章.md",
+    "Template/Front-matter.md",
     "未命名 1",
     "未命名",
     "Template"

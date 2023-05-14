@@ -13,6 +13,7 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  统计: /charts/ || fas fa-bar-chart 
   娱乐||fas fa-list || hide:
     音乐: /music/ || fas fa-music
     电影: /movies/ || fas fa-video
@@ -308,7 +309,7 @@ readmode: true
 
 # dark mode
 darkmode:
-  enable: false
+  enable: true
   # Toggle Button to switch dark/light mode
   button: true
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
@@ -406,12 +407,13 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: # Valine,Disqus
+    - Twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  lazyload: true
+  count: true # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -483,7 +485,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://my-twikoo-five-livid.vercel.app/
   region:
   visitor: false
   option:
@@ -946,9 +948,17 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+   - <canvas id="universe"></canvas>
+   - <script defer src="/js/universe.js"></script>
+    - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <script defer data-pjax src="/js/emoji.js"></script>
+    - <link rel="stylesheet" href="/css/emoji.css">
+    - <script defer data-pjax src="/js/readPercent.js"></script>
+    - <link rel="stylesheet" href="/css/readPercent.css">
     # - <link rel="stylesheet" href="/xxx.css">
-  bottom:
+  bottom:  
+    - <link rel="stylesheet" href="/css/universe.css">
     # - <script src="xxxx"></script>
 
 # CDN

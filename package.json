@@ -15,6 +15,7 @@
   "dependencies": {
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "acorn": "^8.8.2",
+    "cheerio": "^1.0.0-rc.12",
     "hexo": "^6.3.0",
     "hexo-auto-category": "^0.2.1",
     "hexo-butterfly-footer-beautify": "^1.0.6",
