@@ -505,9 +505,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: http://twikoo.saroprock.com/
+  envId: https://my-twikoo-five-livid.vercel.app/
   region:
-  visitor: true
+  visitor: false
   option:
 
 # Giscus
