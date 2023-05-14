@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "100f4faeb20e5b57",
+    "id": "72a6bcbb5ff30962",
     "type": "split",
     "children": [
       {
-        "id": "cdbe8cf2862058e7",
+        "id": "1e77e9e1d9555f71",
         "type": "tabs",
         "children": [
           {
-            "id": "abb4b73fbe04856e",
+            "id": "ecd1bbe76a4ee089",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Front-matter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d12e365da4c4ec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试文章.md",
+                "file": "_posts/OI学习笔记/【动态规划】LIS与LCS（最长上升子序列）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "22a7746ed8b54e4e",
+    "id": "3a97d912670a1bcd",
     "type": "split",
     "children": [
       {
-        "id": "6847b87e18a2e598",
+        "id": "98a085e87edec89e",
         "type": "tabs",
         "children": [
           {
-            "id": "58476e77d5e776fc",
+            "id": "f74700c421d04176",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "619c200e536e80f2",
+            "id": "5b69486199f4a68b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "3923af87790e15e2",
+            "id": "58e25e6cfacf237e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "53195ad14e7eea43",
+    "id": "ed5e83c20782fe83",
     "type": "split",
     "children": [
       {
-        "id": "d96e8c4aa12a02f1",
+        "id": "40ef612dde1d478a",
         "type": "tabs",
         "children": [
           {
-            "id": "af9cf6c9e91b2176",
+            "id": "09bc2f19a9145055",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试文章.md",
+                "file": "_posts/OI学习笔记/【动态规划】LIS与LCS（最长上升子序列）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +97,19 @@
             }
           },
           {
-            "id": "b02b1dcae2045d7d",
+            "id": "1f9f7406cd47037f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试文章.md",
+                "file": "_posts/OI学习笔记/【动态规划】LIS与LCS（最长上升子序列）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1074e3af083f8488",
+            "id": "06d0da2c8bc853a1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,17 +120,17 @@
             }
           },
           {
-            "id": "e4fc1df80d4645d5",
+            "id": "f4e3f25d85ba67ba",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试文章.md"
+                "file": "_posts/OI学习笔记/【动态规划】LIS与LCS（最长上升子序列）.md"
               }
             }
           },
           {
-            "id": "eaad67c55301d584",
+            "id": "51e386ad764f27fa",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -155,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,13 +154,8 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4d12e365da4c4ec8",
+  "active": "ecd1bbe76a4ee089",
   "lastOpenFiles": [
-    "hello-world.md",
-    "测试文章.md",
-    "Template/Front-matter.md",
-    "未命名 1",
-    "未命名",
-    "Template"
+    "Template/Front-matter.md"
   ]
 }
