@@ -367,7 +367,7 @@ mathjax:
 # KaTeX
 katex:
   enable: true
-  per_page: false
+  per_page: true
   hide_scrollbar: true
 
 # search (搜索)
