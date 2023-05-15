@@ -271,7 +271,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/EveSunMaple
   card_announcement:
     enable: true
     content: 欢迎来到SaroProck
@@ -988,14 +988,17 @@ css_prefix: true
 inject:
   head:
     - <canvas id="universe"></canvas>
+    - <script defer src="/js/mouse.js"></script>
+    - <link rel="stylesheet" href="/css/mouse.css" media="defer" onload="this.media='all'">
     - <script defer src="/js/nav.js"></script>
+    - <link rel="stylesheet" href="/css/nav.css" media="defer" onload="this.media='all'">
     - <script defer src="/js/universe.js"></script>
     - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <script defer data-pjax src="/js/emoji.js"></script>
-    - <link rel="stylesheet" href="/css/emoji.css">
+    - <link rel="stylesheet" href="/css/emoji.css" media="defer" onload="this.media='all'">
     - <script defer data-pjax src="/js/readPercent.js"></script>
-    - <link rel="stylesheet" href="/css/readPercent.css">
+    - <link rel="stylesheet" href="/css/readPercent.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:  
     - <script defer src="/js/nav.js"></script>

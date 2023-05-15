@@ -7,15 +7,16 @@ nav#nav
         span.site-name=config.title
     
   #menus
-    if (theme.algolia_search.enable || theme.local_search.enable || theme.docsearch.enable)
-      #search-button
-        a.site-page.social-icon.search(href="javascript:void(0);")
-          i.fas.fa-search.fa-fw
-          span=' '+_p('search.title')
     !=partial('includes/header/menu_item', {}, {cache: true})
+    center(id="name-container")
+      a(id="page-name" href="javascript:scrollToTop()") PAGE_NAME
 
-    #toggle-menu
-      a.site-page(href="javascript:void(0);")
-        i.fas.fa-bars.fa-fw
+    if (theme.algolia_search.enable || theme.local_search.enable)
+      #search-button
+        a.site-page.social-icon.search
+          i.fas.fa-search.fa-fw
+      #toggle-menu
+        a.site-page
+          i.fas.fa-bars.fa-fw
 
 

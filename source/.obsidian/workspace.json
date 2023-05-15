@@ -11,8 +11,12 @@
             "id": "bafb03a886dfbeb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md"
+              }
             }
           },
           {
@@ -148,6 +156,11 @@
   },
   "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
+    "css/nav.css",
+    "css/新建 文本文档.txt",
+    "css/mouse.css",
+    "js/mouse.js",
+    "js/新建 文本文档.txt",
     "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "[【搜索】优先队列BFS.md",
@@ -160,7 +173,6 @@
     "img",
     "新建文件夹",
     "_posts/OI学习笔记/搜索",
-    "_posts/OI学习笔记/动态规划",
     "Template/Front-matter.md"
   ]
 }
