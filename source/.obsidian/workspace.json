@@ -11,8 +11,12 @@
             "id": "e316e9a522bd7850",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md"
+                "file": "_posts/生活笔记/信奥队五月竞赛总结反思.md"
               }
             }
           },
@@ -150,17 +154,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51e386ad764f27fa",
+  "active": "e316e9a522bd7850",
   "lastOpenFiles": [
+    "[【搜索】优先队列BFS.md",
+    "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
+    "_posts/生活笔记",
     "_posts/OI学习笔记/图论",
     "img/zdl1.webp",
     "img/zdl1.webp.crdownload",
     "img",
     "新建文件夹",
-    "未命名",
     "_posts/OI学习笔记/搜索",
     "_posts/OI学习笔记/动态规划",
     "Template/Front-matter.md"
