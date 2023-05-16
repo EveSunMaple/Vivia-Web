@@ -214,7 +214,7 @@ h6::before {
 #content-inner.layout h4:hover,
 #content-inner.layout h5:hover,
 #content-inner.layout h6:hover {
-  color: var(--theme-color);
+  color: var(#39C5BB);
 }
 #content-inner.layout h1:hover::before,
 #content-inner.layout h2:hover::before,
@@ -222,7 +222,7 @@ h6::before {
 #content-inner.layout h4:hover::before,
 #content-inner.layout h5:hover::before,
 #content-inner.layout h6:hover::before {
-  color: var(--theme-color);
+  color: var(#39C5BB);
   -webkit-animation: ccc 6s linear infinite;
   animation: ccc 6s linear infinite;
 }
@@ -446,4 +446,72 @@ h6::before {
 .author_top:hover {
     background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
     background-size: cover;
+  }
+
+  .nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+/* 导航栏显示标题 */
+#page-name::before {
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: white !important;
+    top: 0;
+    left: 0;
+    content: "回到顶部";
+    background-color: var(#39C5BB);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(#39C5BB);
+    line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+  }
+  #page-name:hover:before {
+    opacity: 1;
+  }
+  #name-container {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+  #name-container:hover {
+    scale: 1.03;
+  }
+  #page-name {
+    position: relative;
+    padding: 10px 30px; /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+  }
+  #nav{
+      padding: 0 20px;
+  }
+  
+  /* 修复滚动显示标题居中 */
+  center#name-container {
+    position: absolute !important;
+    width: fit-content !important;
+    left: 42% !important;
+  }
+  @media screen and (max-width: 768px) {
+    center#name-container {
+      display: none;
+    }
   }

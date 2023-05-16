@@ -1002,6 +1002,7 @@ inject:
     - <link rel="stylesheet" href="/css/readPercent.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:  
+    - <script defer src="/js/title.js"></script>
     - <script defer src="/js/nav.js"></script>
     - <link rel="stylesheet" href="/css/universe.css">
     # - <script src="xxxx"></script>
