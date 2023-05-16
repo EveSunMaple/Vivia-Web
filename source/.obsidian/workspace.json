@@ -154,8 +154,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bafb03a886dfbeb0",
+  "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "js/runtime.js",
+    "js/新建 文本文档.txt",
+    "js/新建 Microsoft PowerPoint 演示文稿.pptx",
     "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "fonts/YunFont.ttf",
     "fonts/ZiYuYongSongTi-2.ttf",
@@ -165,8 +168,6 @@
     "fonts/CascadiaCodePL-Italic.ttf",
     "fonts/YunFont.TTF",
     "fonts/YunFont.tff",
-    "fonts/FZZJ-ZYGDKJW.TTF",
-    "fonts",
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "[【搜索】优先队列BFS.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",

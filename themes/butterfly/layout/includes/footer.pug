@@ -1,11 +1,66 @@
 #footer-wrap
+  #ft
+    .ft-item-1
+      .t-top
+        .t-t-l
+          p.ft-t.t-l-t 格言🧬
+          .bg-ad
+            div
+              | 再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨
+            .btn-xz-box
+              a.btn-xz(href='https://stellarium.org/') 点击开启星辰之旅
+        .t-t-r
+          p.ft-t.t-l-t 猜你想看💡
+          ul.ft-links
+            li
+              a(href='/') 网站主页
+              a(href='/charts/') 网站统计
+            li
+              a(href='/social/link/') 我的朋友
+              a(href='/comments/') 留点什么
+            li
+              a(href='/about/') 关于本站
+              a(href='/archives/') 文章归档
+            li
+              a(href='/categories/') 文章分类
+              a(href='/tags/') 文章标签
+            li
+              a(href='/music/') 音乐分享
+              a(href='/movies/') 电影分享
+    .ft-item-2
+      p.ft-t 推荐友链⌛
+      .ft-img-group
+        .img-group-item
+          a(href='https://www.fomal.cc/' title='Fomalhaut🥝')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/60e5d4e39da7c077.webp' alt='')
+        .img-group-item
+          a(href='https://tzy1997.com/' title='唐志远の博客')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/4ab83cdce942463b.jpg' alt='')
+        .img-group-item
+          a(href='https://akilar.top/' title='Akilarの糖果屋')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/6bf1ed05796db59c.jpg' alt='')
+        .img-group-item
+          a(href='https://butterfly.js.org/' title='Butterfly')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/64cc6a7d508026e1.png' alt='')
+        .img-group-item
+          a(href='https://anzhiy.cn/' title='安知鱼')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/1b33fef8f5fb7e63.jpg' alt='')
+        .img-group-item
+          a(href='https://www.acozycotage.net/' title='Acozycotage')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/6a6fe6ebfd19c465.jpg' alt='')
+        .img-group-item
+          a(href='https://cdn.netdun.net/' title='网盾星球')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/70dee3f9d1ca10f3.webp' alt='')
+        .img-group-item
+          a(href='javascript:void(0)' title='广告位招租')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp' alt='')
   if theme.footer.owner.enable
     - var now = new Date()
     - var nowYear = now.getFullYear()
     if theme.footer.owner.since && theme.footer.owner.since != nowYear
-      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear + ' '} <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author}`
     else
-      .copyright!= `&copy;${nowYear} By ${config.author}`
+      .copyright!= `&copy;${nowYear + ' '} <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author}`
   if theme.footer.copyright
     .framework-info
       span= _p('footer.framework') + ' '
@@ -15,3 +70,5 @@
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
+
+      #workboard
