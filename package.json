@@ -19,6 +19,7 @@
     "hexo": "^6.3.0",
     "hexo-auto-category": "^0.2.1",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
+    "hexo-butterfly-swiper": "^1.0.12",
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-filter-gitcalendar": "^1.0.11",
     "hexo-generator-archive": "^2.0.0",
