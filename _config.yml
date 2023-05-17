@@ -14,6 +14,8 @@ timezone: ''
 # Hexo Github Canlendar
 # Author: Ice Kano
 # Modify: Lete乐特
+butterfly_article_double_row:
+  enable: true
 search:
   path: search.xml
   field: post
