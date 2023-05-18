@@ -4,7 +4,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '小息片刻~记得回来';
+    document.title = '小憩片刻~记得回来';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容

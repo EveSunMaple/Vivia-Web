@@ -129,7 +129,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-  
+
 # Generate categories from directory-tree
 # Dependencies: https://github.com/xu-song/hexo-auto-category
 # depth: the max_depth of directory-tree you want to generate, should > 0
@@ -141,3 +141,14 @@ auto_category:
 markdown:
     plugins:
       - '@renbaoshuo/markdown-it-katex'
+
+custom_js:
+  - //cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js  #/APlayer#/APlayer依赖
+  - //cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js  #/APlayer依赖
+custom_css:
+  - //cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css   #/APlayer依赖
+
+  # aplayer
+aplayer:  
+  meting: true  
+  asset_inject: false
