@@ -798,7 +798,11 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: 3
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub: 欢迎来到SaroProck
+  sub: 
+    - 你在抱怨什么呢
+    - 为明天到来的事，说人生像是没有意义
+    - 没有选择会是唯一的路
+    - 这不是你自己的问题，人终归要好好去生活
 
 # Loading Animation (加載動畫)
 preloader:
