@@ -1,95 +1,75 @@
-if hexo-config('preloader.enable') && hexo-config('preloader.source') == 1
-  .loading-bg
-    position: fixed
-    z-index: 1000
-    width: 50%
-    height: 100%
-    background-color: var(--preloader-bg)
+#loading-box {
+    background: #000;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
 
-  #loading-box
-    .loading-left-bg
-      @extend .loading-bg
+    &.loaded {
+        z-index: -1000;
+    }
 
-    .loading-right-bg
-      @extend .loading-bg
-      right: 0
+    .centered {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #000;
+        filter: blur(10px) contrast(20);
 
-    .spinner-box
-      position: fixed
-      z-index: 1001
-      display: flex
-      justify-content: center
-      align-items: center
-      width: 100%
-      height: 100vh
+        .blob-1, .blob-2 {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
-      .configure-border-1
-        position: absolute
-        padding: 3px
-        width: 115px
-        height: 115px
-        background: #ffab91
-        animation: configure-clockwise 3s ease-in-out 0s infinite alternate
+        .blob-1 {
+            left: 20%;
+            animation: osc-l 2.5s ease infinite;
+        }
 
-      .configure-border-2
-        left: -115px
-        padding: 3px
-        width: 115px
-        height: 115px
-        background: rgb(63, 249, 220)
-        transform: rotate(45deg)
-        animation: configure-xclockwise 3s ease-in-out 0s infinite alternate
+        .blob-2 {
+            left: 80%;
+            animation: osc-r 2.5s ease infinite;
+            background: #0ff;
+        }
+    }
+}
 
-      .loading-word
-        position: absolute
-        color: var(--preloader-color)
-        font-size: 16px
+/* Animations */
+@keyframes osc-l {
+    0% {
+        left: 20%;
+    }
 
-      .configure-core
-        width: 100%
-        height: 100%
-        background-color: var(--preloader-bg)
+    50% {
+        left: 50%;
+    }
 
-    &.loaded
-      .loading-left-bg
-        transition: all .5s
-        transform: translate(-100%, 0)
+    100% {
+        left: 20%;
+    }
+}
 
-      .loading-right-bg
-        transition: all .5s
-        transform: translate(100%, 0)
+@keyframes osc-r {
+    0% {
+        left: 80%;
+    }
 
-      .spinner-box
-        display: none
+    50% {
+        left: 50%;
+    }
 
-  @keyframes configure-clockwise
-    0%
-      transform: rotate(0)
-
-    25%
-      transform: rotate(90deg)
-
-    50%
-      transform: rotate(180deg)
-
-    75%
-      transform: rotate(270deg)
-
-    100%
-      transform: rotate(360deg)
-
-  @keyframes configure-xclockwise
-    0%
-      transform: rotate(45deg)
-
-    25%
-      transform: rotate(-45deg)
-
-    50%
-      transform: rotate(-135deg)
-
-    75%
-      transform: rotate(-225deg)
-
-    100%
-      transform: rotate(-315deg)
+    100% {
+        left: 80%;
+    }
+}
