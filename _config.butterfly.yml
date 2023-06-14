@@ -5,7 +5,7 @@
 nav:
   logo: # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Menu 目錄
 menu:
@@ -17,7 +17,7 @@ menu:
   娱乐||fas fa-list || hide:
     音乐: https://music.saroprock.com || fas fa-music
     电影: /movies/ || fas fa-video
-  链接: /link/ || fas fa-link
+  友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 # Ice Kano Plus_in
 # Hexo Github Canlendar
