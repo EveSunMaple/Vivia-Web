@@ -939,7 +939,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <meta name="baidu-site-verification" content="codeva-pcbTD3obX6" />
+    - <meta name="baidu-site-verification" content="codeva-qRTsa33MiE" />
     - <link rel="stylesheet" href="/css/font.css">
     - <canvas id="universe"></canvas>
     - <script defer src="/js/mouse.js"></script>
