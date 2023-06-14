@@ -10,6 +10,7 @@ nav:
 # Menu 目錄
 menu:
   主页: / || fas fa-home
+  说说: /shuoshuo/ || fas fa-book
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -939,6 +940,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
     - <meta name="msvalidate.01" content="219DA341D37839BAF8D3CB2EA93247CE" />
     - <meta name="baidu-site-verification" content="codeva-qRTsa33MiE" />
     - <link rel="stylesheet" href="/css/font.css">
