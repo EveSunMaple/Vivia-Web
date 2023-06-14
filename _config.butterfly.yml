@@ -939,6 +939,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <meta name="msvalidate.01" content="219DA341D37839BAF8D3CB2EA93247CE" />
     - <meta name="baidu-site-verification" content="codeva-qRTsa33MiE" />
     - <link rel="stylesheet" href="/css/font.css">
     - <canvas id="universe"></canvas>
