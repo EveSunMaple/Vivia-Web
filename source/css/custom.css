@@ -493,6 +493,7 @@ h6::before {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
+    margin: auto;
   }
   #name-container:hover {
     scale: 1.03;
@@ -507,15 +508,12 @@ h6::before {
   
   /* 修复滚动显示标题居中 */
   center#name-container {
-    position: absolute !important;
-    width: fit-content !important;
-    left: 35% !important;
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  @media screen and (max-width: 768px) {
-    center#name-container {
-      display: none;
-    }
-  }
+  
   /* tzy页脚样式 */
 #ft {
     max-width: 1200px;

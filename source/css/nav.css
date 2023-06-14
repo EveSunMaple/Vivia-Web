@@ -51,7 +51,7 @@
 }
 #site-name{
     position: relative;
-    font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+    font-size: 26px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
 :root{
     --lyx-theme:#ed709b /*我的主题色*/
