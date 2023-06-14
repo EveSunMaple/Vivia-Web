@@ -64,7 +64,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.luogu.com.cn/upload/usericon/763487.png
+  img: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/avatar.png
   effect: false
 
 # Disable all banner image
