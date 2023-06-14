@@ -331,7 +331,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -690,7 +690,7 @@ footer_bg: false
 rightside-bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
@@ -869,7 +869,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
@@ -939,6 +939,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
     - <meta name="msvalidate.01" content="219DA341D37839BAF8D3CB2EA93247CE" />
     - <meta name="baidu-site-verification" content="codeva-qRTsa33MiE" />
