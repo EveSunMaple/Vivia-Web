@@ -10,7 +10,6 @@ nav:
 # Menu 目錄
 menu:
   主页: / || fas fa-home
-  说说: /shuoshuo/ || fas fa-book
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
