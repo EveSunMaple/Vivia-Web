@@ -259,7 +259,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -939,6 +939,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
     - <meta name="msvalidate.01" content="219DA341D37839BAF8D3CB2EA93247CE" />
