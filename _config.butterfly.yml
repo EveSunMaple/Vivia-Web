@@ -207,12 +207,13 @@ electric_clock:
 reward:
   enable: false
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+     - img: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/mm_reward_qrcode_1686833102069-01.jpeg
+       link: 
+       text: wechat
+     - img: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/1686833159558-01.jpeg
+       link:
+       text: alipay
+  coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
 
 # Post edit
 # Easily browse and edit blog source code online.

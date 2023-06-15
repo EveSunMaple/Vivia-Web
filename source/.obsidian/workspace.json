@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "source/_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
+                "file": "source/_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
                 "staged": false
               }
             }
@@ -149,8 +149,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bafb03a886dfbeb0",
+  "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "js/coin.js",
+    "css/coin.css",
     "comments/index.md",
     "link/index.md",
     "_posts/生活笔记/信奥队五月竞赛总结反思.md",
@@ -171,7 +173,6 @@
     "fonts/ZiYuYongSongTi-2.ttf",
     "fonts/WenDaoLingFeiXiaoKai-2.ttf",
     "fonts/CodeFont.ttf",
-    "fonts/CascadiaCodePL-SemiBold.ttf",
     "[【搜索】优先队列BFS.md",
     "Template/Front-matter.md"
   ]
