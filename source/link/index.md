@@ -3,3 +3,26 @@ title: 友情链接
 date: 2023-05-14 08:05:57
 type: 'link'
 ---
+
+>`花径不曾缘客扫，蓬门今始为君开`
+
+## 前言
+
+快来添加友链吧，一个人很孤独的喵(*/ω＼*)
+
+## 要求
+
+- 需要为**个人博客**
+- 非**论坛、导航类博客**
+- 友链头像为 **https** 链接
+- **添加本站点到友链**
+- **不包含违法信息**
+
+## 申请格式
+
+**名称：SaroProck**
+**介绍：一处不知名的小站点**
+**链接：https://www.saroprock.com/**  
+**头像：https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/myavatar%20.jpg**
+
+>友链个数：`4`
