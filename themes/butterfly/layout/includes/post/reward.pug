@@ -1,4 +1,4 @@
-link(rel='stylesheet' href=url_for(theme.CDN.option.coin_css) media="defer" onload="this.media='all'")
+//link(rel='stylesheet' href=url_for(theme.CDN.option.coin_css) media="defer" onload="this.media='all'")
 .post-reward
   button.tip-button.reward-button
     span.tip-button__text= _p('donate')
@@ -18,4 +18,4 @@ link(rel='stylesheet' href=url_for(theme.CDN.option.coin_css) media="defer" onlo
 if theme.reward.coinAudio
   - var coinAudio = theme.reward.coinAudio ? url_for(theme.reward.coinAudio) : 'https://cdn.cbd.int/akilar-candyassets@1.0.36/audio/coin.mp3'
   audio#coinAudio(src=coinAudio)
-script(defer src=url_for(theme.CDN.option.coin_js))
+//script(defer src=url_for(theme.CDN.option.coin_js))

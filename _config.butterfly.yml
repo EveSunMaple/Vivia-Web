@@ -205,14 +205,14 @@ electric_clock:
   rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 # Sponsor/reward
 reward:
-  enable: false
+  enable: ture
   QR_code:
-     - img: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/mm_reward_qrcode_1686833102069-01.jpeg
-       link: 
-       text: wechat
-     - img: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/1686833159558-01.jpeg
-       link:
-       text: alipay
+     - img: img/1.jpeg
+       link: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/mm_reward_qrcode_1686833102069-01.jpeg
+       text: 微信
+     - img: img/2.jpeg
+       link: https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/1686833159558-01.jpeg
+       text: 支付宝
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
 
 # Post edit
