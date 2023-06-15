@@ -2,7 +2,7 @@
 title: shuoshuo
 date: 2023-06-15 21:43:17
 type: artitalk
-comments: false
+comments: true
 layout: "shuoshuo"
 ---
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
