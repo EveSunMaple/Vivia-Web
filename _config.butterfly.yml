@@ -946,6 +946,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script defer data-pjax src="/js/coin.js"></script>
+    - <link rel="stylesheet" href="/css/coin.css" media="defer" onload="this.media='all'">
     - <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
