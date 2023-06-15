@@ -151,6 +151,8 @@
   },
   "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "shuoshuo/index.md",
+    "shuoshuo",
     "js/coin.js",
     "css/coin.css",
     "comments/index.md",
@@ -158,8 +160,6 @@
     "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
-    "shuoshuo/index.md",
-    "shuoshuo",
     "新建文件夹",
     "img/zdl1.webp",
     "img/code-wallpaper-18.png",
@@ -172,7 +172,6 @@
     "fonts/YunFont.ttf",
     "fonts/ZiYuYongSongTi-2.ttf",
     "fonts/WenDaoLingFeiXiaoKai-2.ttf",
-    "fonts/CodeFont.ttf",
     "[【搜索】优先队列BFS.md",
     "Template/Front-matter.md"
   ]

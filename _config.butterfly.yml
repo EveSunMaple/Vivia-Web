@@ -21,6 +21,7 @@ menu:
     友链: /link/ || fas fa-link
     留言: /comments/ || fas fa-heart
   统计: /charts/ || fas fa-bar-chart
+  说说: /shuoshuo/ || fas fa-book
 # Ice Kano Plus_in
 # Hexo Github Canlendar
 # Author: Ice Kano
@@ -222,6 +223,13 @@ post_edit:
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url:
+
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  appId: giUOYfKbZte4iUcuZeWHv5V0-MdYXbMMI  # 填入设置中的AppId
+  appKey: PaThTOIHI3iksEz1c4wu4RBs # 填入设置中的AppKey
+  option:
 
 # Related Articles
 related_post:
