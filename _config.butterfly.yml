@@ -21,7 +21,7 @@ menu:
     友链: /link/ || fas fa-link
     留言: /comments/ || fas fa-heart
   统计: /charts/ || fas fa-bar-chart
-  说说: /shuoshuo/ || fas fa-book
+  # 说说: /shuoshuo/ || fas fa-book
 # Ice Kano Plus_in
 # Hexo Github Canlendar
 # Author: Ice Kano
