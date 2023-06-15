@@ -10,15 +10,17 @@ nav:
 # Menu 目錄
 menu:
   主页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  统计: /charts/ || fas fa-bar-chart 
+  文章||fas fa-book || hide:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   娱乐||fas fa-list || hide:
     音乐: https://music.saroprock.com || fas fa-music
     电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  留言: /comments/ || fas fa-heart
+  社交||fas fa-users || hide:
+    友链: /link/ || fas fa-link
+    留言: /comments/ || fas fa-heart
+  统计: /charts/ || fas fa-bar-chart
 # Ice Kano Plus_in
 # Hexo Github Canlendar
 # Author: Ice Kano

@@ -1,9 +1,14 @@
 ---
 title: 【动态规划】LIS与LCS（最长上升子序列）
-tags: ['DP', '线性动态规划', 'C++', 'OI']
+tags:
+  - DP
+  - 线性动态规划
+  - C++
+  - OI
 categories:
   - OI学习笔记
   - 动态规划
+abbrlink: ac6b0409
 date: 2023-05-14 00:00:00
 ---
 
