@@ -11,10 +11,11 @@
             "id": "bafb03a886dfbeb0",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "source/_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
-                "staged": false
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md"
+              }
             }
           },
           {
@@ -149,7 +154,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51e386ad764f27fa",
+  "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
     "shuoshuo/index.md",
     "shuoshuo",
