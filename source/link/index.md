@@ -23,6 +23,6 @@ type: 'link'
 **名称：SaroProck**
 **介绍：一处不知名的小站点**
 **链接：https://www.saroprock.com/**  
-**头像：https://cdn.staticaly.com/gh/EveSunMaple/Web-image/master/posts/myavatar%20.jpg**
+**头像：https://www.saroprock.com/img/myavatar.jpg**
 
 >友链个数：`4`
