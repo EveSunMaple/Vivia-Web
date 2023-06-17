@@ -149,10 +149,10 @@ index_post_content:
 # anchor
 anchor:
   button:
-    enable: true
-    always_show: true
+    enable: false
+    always_show: false
     icon: # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: true # when you scroll in post, the URL will update according to header id.
+  auto_update: false # when you scroll in post, the URL will update according to header id.
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -327,7 +327,7 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
+  enable: true
   publish_date: 5/13/2023 00:00:00
 
 # Aside widget - Newest Comments
