@@ -18,8 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8686956d180b1935",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "source/.obsidian/workspace.json",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,10 +162,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bafb03a886dfbeb0",
+  "active": "8686956d180b1935",
   "lastOpenFiles": [
-    "_posts/OI学习笔记/图论/【图论】最短路.md",
+    "conflict-files-obsidian-git.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+    "_posts/OI学习笔记/图论/【图论】最短路.md",
     "_posts/测试文章.md",
     "link/index.md",
     "img/myavatar.jpg",
