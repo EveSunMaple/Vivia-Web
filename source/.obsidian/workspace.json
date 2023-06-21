@@ -11,18 +11,6 @@
             "id": "bafb03a886dfbeb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8686956d180b1935",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
                 "file": "source/.obsidian/workspace.json",
@@ -30,8 +18,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +149,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8686956d180b1935",
+  "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
