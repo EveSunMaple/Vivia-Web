@@ -693,7 +693,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://images3.alphacoders.com/175/175889.jpg)
+background: url(https://images3.alphacoders.com/175/175889.jpg) # TODO: 这里的图片可能会有Token安全限制问题，建议用其它CDS或者OSS进行代理
 
 # Footer Background
 footer_bg: false
@@ -816,15 +816,16 @@ subtitle:
     - 没有选择会是唯一的路
     - 这不是你自己的问题，人终归要好好去生活
 
+#### _config.yml或者和当前配置文件的preloader保留一个，避免命名冲突
 # Loading Animation (加載動畫)
-preloader:
-  enable: true
+# preloader:
+  # enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  # source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  # pace_css_url:
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計

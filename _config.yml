@@ -6,7 +6,7 @@
 title: SaroProck
 subtitle: 一处不知名的小站点
 description: 只是一位普通的高中生
-keywords:
+keywords: JavaScript, Web Development, Hexo # 设置默认数组防止报空异常
 author: EveSunMaple
 language: zh-CN
 timezone: ''
@@ -57,7 +57,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+# 添加过滤防止编译报错
+skip_render: 
+  - '**/Template/*'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -163,3 +165,22 @@ baidu_url_submit:
   host: www.saroprock.com # 在百度站长平台中注册的域名
   token: mfE3oqN0q4BAdem1 # 请注意这是您的秘钥，所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址，新链接会保存在此文本文档里
+
+
+swiper:
+  priority: 5 #过滤器优先权
+  # autoplay: ture
+  # loop: true
+  enable: true # 开关
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  temple_html: '<div>${temple_html_item}</div>'
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
