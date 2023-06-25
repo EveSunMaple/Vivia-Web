@@ -18,6 +18,7 @@ menu:
     音乐: https://music.saroprock.com || fas fa-music
     电影: /movies/ || fas fa-video
   社交||fas fa-users || hide:
+    说说: /talks/ || fas fa-book
     友链: /link/ || fas fa-link
     留言: /comments/ || fas fa-heart
   统计: /charts/ || fas fa-bar-chart
