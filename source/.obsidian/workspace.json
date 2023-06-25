@@ -166,8 +166,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c6007c6da15b9514",
+  "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "talks/index.md",
+    "talks",
     "pub/talks/index.md",
     "pub/talks",
     "pub",
@@ -197,7 +199,6 @@
     "img/code-wallpaper-18.png",
     "js/runtime.js",
     "js/新建 文本文档.txt",
-    "js/新建 Microsoft PowerPoint 演示文稿.pptx",
     "[【搜索】优先队列BFS.md"
   ]
 }
