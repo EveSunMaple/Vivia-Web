@@ -24,7 +24,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/OI学习笔记/图论/未命名.md",
+                "file": "_posts/Qexo文章发布测试.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/图论/未命名.md",
+                "file": "_posts/Qexo文章发布测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/图论/未命名.md",
+                "file": "_posts/Qexo文章发布测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/OI学习笔记/图论/未命名.md"
+                "file": "_posts/Qexo文章发布测试.md"
               }
             }
           },
@@ -166,9 +166,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f74700c421d04176",
+  "active": "c6007c6da15b9514",
   "lastOpenFiles": [
+    "pub/talks/index.md",
+    "pub/talks",
+    "pub",
     "_posts/OI学习笔记/图论/未命名.md",
+    "_posts/Qexo文章发布测试.md",
     "_posts/测试文章.md",
     "conflict-files-obsidian-git.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
@@ -194,8 +198,6 @@
     "js/runtime.js",
     "js/新建 文本文档.txt",
     "js/新建 Microsoft PowerPoint 演示文稿.pptx",
-    "fonts/YunFont.ttf",
-    "fonts/ZiYuYongSongTi-2.ttf",
     "[【搜索】优先队列BFS.md"
   ]
 }
