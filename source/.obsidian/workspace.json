@@ -24,7 +24,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Qexo文章发布测试.md",
+                "file": "talks/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Qexo文章发布测试.md",
+                "file": "talks/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Qexo文章发布测试.md",
+                "file": "talks/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Qexo文章发布测试.md"
+                "file": "talks/index.md"
               }
             }
           },
@@ -166,15 +166,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51e386ad764f27fa",
+  "active": "c6007c6da15b9514",
   "lastOpenFiles": [
+    "_posts/Qexo文章发布测试.md",
     "talks/index.md",
     "talks",
     "pub/talks/index.md",
     "pub/talks",
     "pub",
     "_posts/OI学习笔记/图论/未命名.md",
-    "_posts/Qexo文章发布测试.md",
     "_posts/测试文章.md",
     "conflict-files-obsidian-git.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
