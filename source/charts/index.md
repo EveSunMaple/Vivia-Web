@@ -22,7 +22,7 @@ date: 2023-05-14 10:29:55
     页面访问量 <span id="qexo-page-pv">Loading...</span>
     <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/statistic.js"></script>
     <script>
-        loadStatistic("https://qexo.yoursite.com")
+        loadStatistic("https://qexo.saroprock.com")
     </script>
 </body>
 </html>
