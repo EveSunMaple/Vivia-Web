@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "source/.obsidian/workspace.json",
+                "file": "source/_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
                 "staged": false
               }
             }
@@ -151,6 +151,7 @@
   },
   "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
+    "_posts/Qexo文章发布测试.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
     "_posts/OI学习笔记/数据结构/【数据结构】邻接表与链式前向星.md",
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
@@ -159,7 +160,6 @@
     "_posts/OI学习笔记/图论/【图论】强连通分量.md",
     "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
     "talks/index.md",
-    "_posts/Qexo文章发布测试.md",
     "talks",
     "pub/talks/index.md",
     "pub/talks",
