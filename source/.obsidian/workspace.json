@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,8 +166,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c6007c6da15b9514",
+  "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "_posts/OI学习笔记/图论/【图论】强连通分量.md",
     "_posts/Qexo文章发布测试.md",
     "talks/index.md",
     "talks",
