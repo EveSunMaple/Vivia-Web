@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,6 +151,8 @@
   },
   "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
+    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+    "_posts/OI学习笔记/图论/【图论】割边与割点.md",
     "_posts/Qexo文章发布测试.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
     "_posts/OI学习笔记/数据结构/【数据结构】邻接表与链式前向星.md",
