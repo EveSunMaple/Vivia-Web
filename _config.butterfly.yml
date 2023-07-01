@@ -993,9 +993,9 @@ inject:
     - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
     - <script defer data-pjax src="/js/coin.js"></script>
     - <link rel="stylesheet" href="/css/coin.css" media="defer" onload="this.media='all'">
-    - <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    - <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
+    #- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    #- <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    #- <script src="https://cdn.jsdelivr.net/gh/drew233/cdn/js/jquery-3.3.1.min.js"></script>
     - <meta name="msvalidate.01" content="219DA341D37839BAF8D3CB2EA93247CE" />
     - <meta name="baidu-site-verification" content="codeva-qRTsa33MiE" />
     - <link rel="stylesheet" href="/css/font.css">
@@ -1009,13 +1009,12 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <script defer data-pjax src="/js/emoji.js"></script>
     - <link rel="stylesheet" href="/css/emoji.css" media="defer" onload="this.media='all'">
-    - <script defer data-pjax src="/js/readPercent.js"></script>
-    - <link rel="stylesheet" href="/css/readPercent.css" media="defer" onload="this.media='all'">
+    #- <script defer data-pjax src="/js/readPercent.js"></script>
+    #- <link rel="stylesheet" href="/css/readPercent.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="//at.alicdn.com/t/font_2264842_b004iy0kk2b.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:  
-    - <script defer src="/js/runtime.js"></script> # 页脚计时器
     - <script defer src="/js/title.js"></script>
     - <script defer src="/js/nav.js"></script>
     - <link rel="stylesheet" href="/css/universe.css">
