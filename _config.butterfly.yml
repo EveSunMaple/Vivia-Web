@@ -59,17 +59,17 @@ categoryBar:
   row: 2 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: 生活琐事喵~
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
     - descr: AK IOI！
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
     - descr: 图论太酷啦！
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
     - descr: DP你该死啊！
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
     - descr: 不会就搜索~
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
     - descr: 变量也算嘛~
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
+      cover: # https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
 # Code Blocks (代碼相關)
