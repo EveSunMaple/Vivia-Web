@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】最短路.md"
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "bafb03a886dfbeb0",
   "lastOpenFiles": [
-    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
+    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
     "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/图论/【图论】强连通分量.md",
