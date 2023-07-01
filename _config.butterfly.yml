@@ -17,6 +17,7 @@ menu:
   娱乐||fas fa-list || hide:
     音乐: https://music.saroprock.com || fas fa-music
     电影: /movies/ || fas fa-video
+    图库: /gallery/ || fas fa-photo
   社交||fas fa-users || hide:
     说说: /talks/ || fas fa-book
     友链: /link/ || fas fa-link
