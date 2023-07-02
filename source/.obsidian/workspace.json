@@ -156,6 +156,7 @@
   },
   "active": "51e386ad764f27fa",
   "lastOpenFiles": [
+    "fonts/FamilyFont.ttf",
     "fonts/YunFont.ttf",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
     "gallery/index.md",
@@ -191,7 +192,6 @@
     "新建文件夹",
     "img/zdl1.webp",
     "img/code-wallpaper-18.png",
-    "js/runtime.js",
     "[【搜索】优先队列BFS.md"
   ]
 }

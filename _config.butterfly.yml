@@ -810,7 +810,7 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size: 16px
-  font-family: YunFont
+  font-family: FamilyFont
   code-font-family: CodeFont
 
 # Font settings for the site title and site subtitle
