@@ -449,22 +449,6 @@ h6::before {
     background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
     background-size: cover;
   }
-
-  .nav-fixed #nav{
-    transform: translateY(58px)!important;
-    -webkit-transform: translateY(58px)!important;
-    -moz-transform: translateY(58px)!important;
-    -ms-transform: translateY(58px)!important;
-    -o-transform: translateY(58px)!important;
-}
-#nav{
-    transition: none!important;
-    -webkit-transition: none!important;
-    -moz-transition: none!important;
-    -ms-transition: none!important;
-    -o-transition: none!important;
-}
-  
   /* 修复滚动显示标题居中 */
   center#name-container {
     position: absolute;
