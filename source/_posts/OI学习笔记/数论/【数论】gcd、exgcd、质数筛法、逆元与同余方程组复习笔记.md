@@ -30,10 +30,10 @@ tags:
 ```C++
 int gcd(int m, int n)
 {
-	return n == 0 ? m : gcd(n, m % n);
-	// 翻译如下
-	// if(n == 0) return b;
-	// return gcd(n, m % n);
+    return n == 0 ? m : gcd(n, m % n);
+    // 翻译如下
+    // if(n == 0) return b;
+    // return gcd(n, m % n);
 }
 ```
 
@@ -99,7 +99,7 @@ int main()
 
 ## 扩展欧几里得算法
 
-假设我们现在有一个方程am + bn = gcd(m, n)，求a，b的解。
+假设我们现在有一个方程$am + bn = gcd(m, n)$，求a，b的解。
 
 ### 计算特解
 
@@ -120,10 +120,10 @@ int main()
 ```C++
 int exgcd(int m, int n, int& a, int& b) // 回溯时改变a与b的原值
 {
-	if(n == 0) { a = 1; b = 0; return m; } // n = 0计算结束，回溯开始
-	int d = exgcd(n , m % n, a, b); // 工具人d存值
-	int c = a; a = b; b = c - b * (m / n); // 工具人c
-	return d;
+    if(n == 0) { a = 1; b = 0; return m; } // n = 0计算结束，回溯开始
+    int d = exgcd(n , m % n, a, b); // 工具人d存值
+    int c = a; a = b; b = c - b * (m / n); // 工具人c
+    return d;
 }
 ```
 
@@ -135,11 +135,11 @@ $$ \left(a\:+\:\frac{b}{d}k,\:b\:+\:\frac{a}{d}k\right)\:k\epsilon\mathbb{Z} $$
 
 ### 扩展情况
 
-假设要求方程am + bn = g，求a，b的解。
+假设要求方程$am + bn = g$，求a，b的解。
 
-我们可以先按原来的方法，求出am + bn = gcd(m, n)的解。
+我们可以先按原来的方法，求出$am + bn = gcd(m, n)$的解。
 
-然后把a，b，gcd(m, n)同时乘上g / gcd(m, n)就可以了。注意gcd(m, n) | g。
+然后把a，b，gcd(m, n)同时乘上g / gcd(m, n)就可以了。注意$gcd(m, n) | g$。
 
 ## 质数筛法
 
@@ -155,17 +155,51 @@ bool not_prime[N];
 int prime[N], tot;
 for(int i = 2; i <= N; i++)
 {
-	if(!not_prime[i]) primt[++tot] = i;
-	for(int j = 1; j <= n && i * prime[j] <= N; j++)
-	{
-		not_prime[i * prime[j]] = true;
-		if(i % prime[j] == 0) break;
-	}
+    if(!not_prime[i]) primt[++tot] = i;
+    for(int j = 1; j <= n && i * prime[j] <= N; j++)
+    {
+        not_prime[i * prime[j]] = true;
+        if(i % prime[j] == 0) break;
+    }
 }
 ```
 
-### 逆元
+## 逆元
 
 逆元是一个很神奇的东西，你可以理解成广义上的倒数。
 
-给你测试一下，ob自动部署
+什么是倒数？任意一个数乘上一个倒数，结果为1，相当于除了它自己。那么举个例子，有些题目要求你对答案取模，众所周知乘法加法一边运算一边取模是不会影响正确性的，但是要是来个除，你就不得不把它计算完全之后再取模——有可能爆long long。
+
+那么逆元就出现了！逆元就是一个数在一个取模环境下的倒数，乘上它就等于除以原来的数字，就与加法乘法一样了。我们这样定义逆元：
+
+假设a，b满足以下条件（模m意义下的等价类集合）
+
+$$ a,b\epsilon\mathbb{Z}_m $$
+
+同时满足$ab\:\equiv\:1\:(\mod\:m)$，我们就说b是a的逆元，或者a是b的逆元。是不是很简单？
+
+>逆元可不只有一个哦！
+
+### 求解逆元
+
+求解逆元有很多方法，这里我们就只联系上下文，讲一下如何通过exgcd求解逆元。
+
+我们简单想一想，假设我们要求a的逆元b，如果$ab \mod m = 1$，是不是说明$ab - mk = 1$呢？而这里我们的`a`和`m`是已知的，我去，这不就是$am + bn = g$的形式吗！你说一个减一个加？这有什么关系？不就相当于$am + (-k)m = 1$吗？其实是没有区别的。
+
+那就轻轻松松了，结合我们之前exgcd的铺垫，我们直接使用`exgcd(a, m, b, k)`运行完毕之后`b/d`就是a的一个逆元了。~~当然如果`b/d`除不尽那就寄啦~~。
+
+但是我说了，逆元并不只有一个，要是题目要求是最小正整数的逆元怎么办？
+
+直接上公式：`a的逆元 = (b % m + m) % m;`至于为什么，请读者自行证明吧（毕竟是复习笔记）。
+
+### 卢卡斯定理/Lucas 定理
+
+假设有一道题目让你求${{C}}_{{n+m}}^{{n}}\mod p$的值，你会怎么求？
+
+也许你会不屑一顾——我逆元在手，不轻轻松松？
+
+但是你忘记了一件事……有些数在特定环境下它没有逆元啊！
+
+呵呵，这时候就要请出我们的Lucas定理了，专门来解决这种组合数取模的题目。
+
+## 同余方程组
