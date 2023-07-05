@@ -198,8 +198,149 @@ $$ a,b\epsilon\mathbb{Z}_m $$
 
 也许你会不屑一顾——我逆元在手，不轻轻松松？
 
-但是你忘记了一件事……有些数在特定环境下它没有逆元啊！
+但是你忘记了一件事……如果有一部分刚好是p的倍数，那不就寄啦？
 
 呵呵，这时候就要请出我们的Lucas定理了，专门来解决这种组合数取模的题目。
 
+#### 实现
+
+假设A、B是非负整数，p是质数。AB写成p进制：$A=a[n]a[n-1]...a[0]$，$B=b[n]b[n-1]...b[0]$。则组合数$C(A,B)$与$C(a[n],b[n])*C(a[n-1],b[n-1])..C(a[0],b[0]) \mod p$同余。即：
+
+$Lucas(n,m,p)=C(n\%p,m\%p)*Lucas(n/p,m/p,p)$
+
+简言之，Lucas定理是用来求 $C(n,m) \mod p$，p为素数的值。
+
+#### 例题P3807
+
+>题目链接：[P3807 【模板】卢卡斯定理/Lucas 定理](https://www.luogu.com.cn/problem/solution/P3807)
+
+```C++
+#include<iostream>
+#include<algorithm>
+#include<cstdio>
+#define N 100005
+
+using namespace std;
+
+int t, p;
+int n, m;
+long long a[N], b[N];
+
+long long lucas(int x,int y)
+{
+    if(x < y) return 0;
+    else if(x < p) return b[x] * a[y] * a[x - y] % p;
+    else return lucas(x / p, y / p) * lucas(x % p,y % p) % p;
+}
+
+int main()
+{
+    scanf("%d", &t);
+    while(t--)
+    {
+        scanf("%d%d%d", &n, &m, &p);
+        a[0] = a[1] = b[0] = b[1] = 1;
+        for(int i = 2; i <= n + m; i++) b[i] = b[i - 1] * i % p; // 处理成p进制
+        for(int i = 2; i <= n + m; i++) a[i] = (p - p / i) * a[p % i] % p;
+        for(int i = 2; i <= n + m; i++) a[i] = a[i - 1] * a[i] % p;
+        printf("%lld\n", lucas(n + m, m));
+    }
+    return 0;
+}
+```
+
 ## 同余方程组
+
+几个$a\:\equiv\:b\:(\mod\:m)$叠在一起就变成了同余方程组。
+
+例如下面的同余方程组：
+
+$$ \begin{cases}{a\:\equiv\:b_1\:(\mod\:m_1)} \\ {a\:\equiv\:b_2\:(\mod\:m_2)} \\ {a\:\equiv\:b_3\:(\mod\:m_3)}\end{cases} $$
+
+我承认这是一个很吓人的东西，但是推导也不难。
+
+虽然可以用中国剩余定理做，但是可惜它只能解决模数互质的情况。
+
+那么我们可以换一种思路，合并同余方程组。
+
+>~~可惜过程我忘光了呜呜呜，老师救我数论~~
+>有时间再补上推理吧——2023/07/05
+
+直接上代码：
+
+>注意暴力计算会超long long，这里我用了龟速幂等方法成功把其压在了long long内。嫌弃麻烦的同学可以直接使用__int128或者高精度，这里不再赘述。~~我故意保留了一部分注释，让你知道这是我打的~~
+
+```C++
+#include <iostream>
+#include <cmath>
+#define ll long long
+
+using namespace std;
+
+ll Exgcd(ll a, ll b, ll &x, ll &y)
+{
+    if (b == 0) 
+    {
+        x = 1, y = 0;
+        return a;
+    }
+    ll d = Exgcd(b, a % b, x, y);
+    ll z = x; x = y; y = z - (a / b) * y;
+
+    return d;
+}
+
+ll qmul(ll a, ll b, ll p)
+{
+	a %= p;
+    b = (b % p + p) % p;
+	ll res = 0;
+	while (b)
+	{
+		if (b & 1) { res = (res + a) % p; }
+		a = (a + a) % p;
+		b >>= 1;
+	}
+	return res;
+	
+}
+
+int main()
+{
+    ll a1, a2;
+    ll b1, b2;
+    ll n = 0;
+    //freopen("1.txt","r",stdin);
+    scanf("%lld", &n);
+    scanf("%lld%lld", &a1, &b1);
+    //printf("1:\nX = %lld (mod %lld)\n", b1, a1);
+    for(ll i = 2; i <= n; i++)
+    {
+        scanf("%lld%lld", &a2, &b2);
+        //printf("2:\nX = %lld (mod %lld)\n", b2, a2);
+        ll y1 = 0, y2 = 0;
+        //a1 * y1 - a2 * y2 = b2 - b1
+        //y1 y2 dont know
+        ll d = Exgcd(a1, a2, y1, y2);
+        
+        ll cnt = a2 / d;
+        //y1 = y1 / d;
+        //y1 = (y1 % cnt + cnt) % cnt;
+		//y1 = (y1 = y1 / d * (b2 - b1) % cnt + cnt) % cnt;
+		//y1 = (qmul(b2 - b1, y1, cnt) + cnt) % cnt;
+        y1 = (qmul(y1, ((b2 - b1) / d % a2 + a2) % a2, cnt) + cnt) % cnt;
+        
+        b1 = y1 * a1 + b1;
+        a1 = (a1 * cnt);
+        b1 = (b1 % a1 + a1) % a1;
+        //printf("AND:\nX = %lld (mod %lld)\n", b1, a1);
+    }
+
+    //printf("X = %lld k + %lld \n", a1, b1);
+
+    ll ans = (b1 % a1 + a1) % a1;
+    printf("%lld", ans);
+
+    return 0;
+}
+```
