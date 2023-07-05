@@ -196,7 +196,7 @@ $$ a,b\epsilon\mathbb{Z}_m $$
 
 ### 卢卡斯定理/Lucas 定理
 
-假设有一道题目让你求${{C}}_{{n+m}}^{{n}}\mod p$的值，你会怎么求？
+假设有一道题目让你求${C}_{n+m}^{n}\mod p$的值，你会怎么求？
 
 也许你会不屑一顾——我逆元在手，不轻轻松松？
 
@@ -294,17 +294,16 @@ ll Exgcd(ll a, ll b, ll &x, ll &y)
 
 ll qmul(ll a, ll b, ll p)
 {
-	a %= p;
+    a %= p;
     b = (b % p + p) % p;
-	ll res = 0;
+    ll res = 0;
 	while (b)
 	{
-		if (b & 1) { res = (res + a) % p; }
-		a = (a + a) % p;
-		b >>= 1;
-	}
-	return res;
-	
+        if (b & 1) { res = (res + a) % p; }
+        a = (a + a) % p;
+        b >>= 1;
+    }
+    return res;
 }
 
 int main()
