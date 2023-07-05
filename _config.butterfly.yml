@@ -14,14 +14,14 @@ menu:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-  娱乐||fas fa-list || hide:
-    音乐: https://music.saroprock.com || fas fa-music
-    模板: /wheels/ || fas fa-code
-    图库: /gallery/ || fas fa-image
   社交||fas fa-users || hide:
     说说: /talks/ || fas fa-edit
     友链: /link/ || fas fa-link
     留言: /comments/ || fas fa-heart
+  杂项||fas fa-pencil-ruler || hide:
+    音乐: https://music.saroprock.com || fas fa-music
+    模板: /wheels/ || fas fa-code
+    图库: /gallery/ || fas fa-image
   统计: /charts/ || fas fa-bar-chart
   # 说说: /shuoshuo/ || fas fa-book
 # Ice Kano Plus_in
