@@ -33,7 +33,7 @@ int gcd(int m, int n)
 	return n == 0 ? m : gcd(n, m % n);
 	// 翻译如下
 	// if(n == 0) return b;
-	// else return gcd(n, m % n);
+	// return gcd(n, m % n);
 }
 ```
 
