@@ -1,6 +1,5 @@
 ---
 title: 【数论】gcd、exgcd、质数筛法、逆元与同余方程组复习
-date: 2023-07-04
 tags:
   - gcd
   - exgcd
@@ -10,6 +9,10 @@ tags:
   - 卢卡斯定理
   - Lucas
   - OI
+categories:
+  - OI学习笔记
+  - 数论
+date: 2023-07-04 00:00:00
 ---
 ## 前言
 
