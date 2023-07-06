@@ -328,8 +328,8 @@ int main()
         ll cnt = a2 / d;
         //y1 = y1 / d;
         //y1 = (y1 % cnt + cnt) % cnt;
-		//y1 = (y1 = y1 / d * (b2 - b1) % cnt + cnt) % cnt;
-		//y1 = (qmul(b2 - b1, y1, cnt) + cnt) % cnt;
+        //y1 = (y1 = y1 / d * (b2 - b1) % cnt + cnt) % cnt;
+        //y1 = (qmul(b2 - b1, y1, cnt) + cnt) % cnt;
         y1 = (qmul(y1, ((b2 - b1) / d % a2 + a2) % a2, cnt) + cnt) % cnt;
         
         b1 = y1 * a1 + b1;
