@@ -312,7 +312,7 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: iconfont icon-github
       text: 加入闲聊群
       link: https://qm.qq.com/cgi-bin/qm/qr?k=zYxhkudZSjUEoKM0oNmcpthKJZNzIzhR&jump_from=webapi&authKey=gb9eE75lBUwm4yqECWKoW6mrCtasJ71Pj5Pf9RjPAaJxiSv7lI2nIbFbM2JoGgLp
   card_announcement:
@@ -988,6 +988,7 @@ css_prefix: true
 inject:
   head:  
     - <script src="//at.alicdn.com/t/c/font_4071527_ij15axkuprn.js"></script>
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4071527_ij15axkuprn.css">
     - <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.js"></script>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
