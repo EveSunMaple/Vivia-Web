@@ -1,12 +1,179 @@
-@import "//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.css";
-.iconfont {
+@font-face {
+    font-family: "iconfont"; /* Project id 4071527 */
+    /* Color fonts */
+    src: 
+         url('//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.woff2?t=1688775646145') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.woff?t=1688775646145') format('woff'),
+         url('//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.ttf?t=1688775646145') format('truetype');
+  }
+  
+  .iconfont {
     font-family: "iconfont" !important;
     font-size: 22px;
-    /* 可以定义图标大小 */
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    }
+  }
+  
+  .icon-linggan:before {
+    content: "\e68d";
+  }
+  
+  .icon-shalou:before {
+    content: "\e68c";
+  }
+  
+  .icon-tree-round-QQgroup:before {
+    content: "\e650";
+  }
+  
+  .icon-shejiaotubiao-46:before {
+    content: "\e64b";
+  }
+  
+  .icon-youjian:before {
+    content: "\e668";
+  }
+  
+  .icon-qq:before {
+    content: "\e66a";
+  }
+  
+  .icon-weixin:before {
+    content: "\e66c";
+  }
+  
+  .icon-biaoqian:before {
+    content: "\e682";
+  }
+  
+  .icon-dingdan:before {
+    content: "\e684";
+  }
+  
+  .icon-erji:before {
+    content: "\e685";
+  }
+  
+  .icon-fenlei:before {
+    content: "\e687";
+  }
+  
+  .icon-lianjie:before {
+    content: "\e68a";
+  }
+  
+  .icon-rili:before {
+    content: "\e68b";
+  }
+  
+  .icon-shijian:before {
+    content: "\e68e";
+  }
+  
+  .icon-shoucang:before {
+    content: "\e68f";
+  }
+  
+  .icon-shuju:before {
+    content: "\e691";
+  }
+  
+  .icon-shouye:before {
+    content: "\e692";
+  }
+  
+  .icon-tupian:before {
+    content: "\e695";
+  }
+  
+  .icon-wenjian:before {
+    content: "\e696";
+  }
+  
+  .icon-xiaoxi:before {
+    content: "\e697";
+  }
+  
+  .icon-github:before {
+    content: "\ea0b";
+  }
+  
+  .icon-eps:before {
+    content: "\e7b4";
+  }
+  
+  .icon-ai:before {
+    content: "\e7b5";
+  }
+  
+  .icon-css:before {
+    content: "\e7b6";
+  }
+  
+  .icon-doc:before {
+    content: "\e7b7";
+  }
+  
+  .icon-flv:before {
+    content: "\e7b8";
+  }
+  
+  .icon-jpeg:before {
+    content: "\e7b9";
+  }
+  
+  .icon-java:before {
+    content: "\e7bb";
+  }
+  
+  .icon-html:before {
+    content: "\e7bc";
+  }
+  
+  .icon-mp4:before {
+    content: "\e7bd";
+  }
+  
+  .icon-png:before {
+    content: "\e7be";
+  }
+  
+  .icon-txt:before {
+    content: "\e7bf";
+  }
+  
+  .icon-xls:before {
+    content: "\e7c0";
+  }
+  
+  .icon-ppt:before {
+    content: "\e7c1";
+  }
+  
+  .icon-word:before {
+    content: "\e7c2";
+  }
+  
+  .icon-zip:before {
+    content: "\e7c3";
+  }
+  
+  .icon-ps:before {
+    content: "\e7c4";
+  }
+  
+  .icon-qitawenjian:before {
+    content: "\e7c5";
+  }
+  
+  .icon-svg:before {
+    content: "\e7c6";
+  }
+  
+  .icon-zip-1:before {
+    content: "\e7c7";
+  }
 /* 日间模式不生效 */
 [data-theme="light"] #site-name,
 [data-theme="light"] #site-title,
