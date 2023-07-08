@@ -9,20 +9,20 @@ nav:
 
 # Menu 目錄
 menu:
-  主页: / || fas fa-home
-  文章||fas fa-book || hide:
-    归档: /archives/ || fas fa-archive
-    标签: /tags/ || fas fa-tags
-    分类: /categories/ || fas fa-folder-open
-  社交||fas fa-users || hide:
-    说说: /talks/ || fas fa-edit
-    友链: /link/ || fas fa-link
-    留言: /comments/ || fas fa-heart
-  杂项||fas fa-pencil-ruler || hide:
-    音乐: https://music.saroprock.com || fas fa-music
-    模板: /wheels/ || fas fa-code
-    图库: /gallery/ || fas fa-image
-  统计: /charts/ || fas fa-bar-chart
+  主页: / || iconfont icon-shouye
+  文章||iconfont icon-dingdan || hide:
+    归档: /archives/ || iconfont icon-shalou
+    标签: /tags/ || iconfont icon-biaoqian
+    分类: /categories/ || iconfont icon-fenlei
+  社交||iconfont icon-shoucang || hide:
+    说说: /talks/ || iconfont icon-rili
+    友链: /link/ || iconfont icon-lianjie
+    留言: /comments/ || iconfont icon-xiaoxi
+  杂项||iconfont icon-linggan || hide:
+    音乐: https://music.saroprock.com || iconfont icon-erji
+    模板: /wheels/ || iconfont icon-wenjian
+    图库: /gallery/ || iconfont icon-tupian
+  统计: /charts/ || iconfont icon-shuju
   # 说说: /shuoshuo/ || fas fa-book
 # Ice Kano Plus_in
 # Hexo Github Canlendar
@@ -202,7 +202,7 @@ copy:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -313,8 +313,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/EveSunMaple
+      text: 加入闲聊群
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=zYxhkudZSjUEoKM0oNmcpthKJZNzIzhR&jump_from=webapi&authKey=gb9eE75lBUwm4yqECWKoW6mrCtasJ71Pj5Pf9RjPAaJxiSv7lI2nIbFbM2JoGgLp
   card_announcement:
     enable: true
     content: 欢迎来到SaroProck
@@ -987,6 +987,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:  
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4071527_ij15axkuprn.css">
     - <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.js"></script>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
