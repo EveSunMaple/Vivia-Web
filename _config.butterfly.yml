@@ -87,8 +87,11 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/EveSunMaple || Github || '#24292e'
-  fas fa-envelope: mailto:evesunmaple@outlook.com || Email || '#4a7dbe'
+  iconfont icon-github: https://github.com/EveSunMaple || Github || ''
+  iconfont icon-shejiaotubiao-46: https://www.zhihu.com/people/sunmaple-20 || 知乎 || ''
+  iconfont icon-qq: https://qm.qq.com/q/xOVFxKlLji&personal_qrcode_source=4 || QQ || ''
+  iconfont icon-weixin: https://u.wechat.com/MNEZOZhOyyURrZHih0HJP88 || 微信 || ''
+  iconfont icon-youjian: mailto:evesunmaple@outlook.com || 邮箱 || ''
 
 # Image (圖片設置)
 # --------------------------------------
@@ -312,7 +315,7 @@ aside:
     description:
     button:
       enable: true
-      icon: iconfont icon-github
+      icon: iconfont icon-tree-round-QQgroup
       text: 加入闲聊群
       link: https://qm.qq.com/cgi-bin/qm/qr?k=zYxhkudZSjUEoKM0oNmcpthKJZNzIzhR&jump_from=webapi&authKey=gb9eE75lBUwm4yqECWKoW6mrCtasJ71Pj5Pf9RjPAaJxiSv7lI2nIbFbM2JoGgLp
   card_announcement:
