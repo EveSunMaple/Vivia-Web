@@ -727,7 +727,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://images3.alphacoders.com/175/175889.jpg) # TODO: 这里的图片可能会有Token安全限制问题，建议用其它CDS或者OSS进行代理
+background: url(https://img1.imgtp.com/2023/06/17/iuGQ17Wd.png) # TODO: 这里的图片可能会有Token安全限制问题，建议用其它CDS或者OSS进行代理
 
 # Footer Background
 footer_bg: false
@@ -992,7 +992,6 @@ inject:
   head:  
     #- <script src="//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.js"></script>
     #- <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4071527_ij15axkuprn.css">
-    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2264842_b004iy0kk2b.css" media="defer" onload="this.media='all'">
     - <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.js"></script>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -1022,7 +1021,6 @@ inject:
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:  
-    - <script async src="//at.alicdn.com/t/font_2264842_b004iy0kk2b.js"></script> 
     - <script defer src="/js/title.js"></script>
     - <link rel="stylesheet" href="/css/universe.css">
     - <script async src="//at.alicdn.com/t/font_2264842_b004iy0kk2b.js"></script> 
