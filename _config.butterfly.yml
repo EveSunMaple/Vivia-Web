@@ -987,7 +987,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:  
-    - <script src="//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.js"></script>
+    #- <script src="//at.alicdn.com/t/c/font_4071527_wfdgxhls4q.js"></script>
     #- <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4071527_ij15axkuprn.css">
     - <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.js"></script>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/talks.css">
