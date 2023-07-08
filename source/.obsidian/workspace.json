@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/生活笔记/别像弱智一样提问.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/生活笔记/别像弱智一样提问.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/生活笔记/别像弱智一样提问.md",
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/生活笔记/别像弱智一样提问.md"
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "261e2d39481ab371",
   "lastOpenFiles": [
-    "_posts/生活笔记/如何摆脱欲望绑架？.md",
     "_posts/生活笔记/别像弱智一样提问.md",
+    "_posts/生活笔记/如何摆脱欲望绑架？.md",
     "images/stupid_questions/stupid_questions.png.md",
     "images/what-time-to-use-image.png.md",
     "images/stupid_questions/stupid_02-no-target.png.md",

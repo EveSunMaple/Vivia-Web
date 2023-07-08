@@ -12,6 +12,7 @@ tags:
 categories:
   - OI学习笔记
   - 数论
+abbrlink: c22a7f0c
 date: 2023-07-04 00:00:00
 ---
 ## 前言
