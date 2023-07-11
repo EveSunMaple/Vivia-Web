@@ -863,11 +863,11 @@ preloader:
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
-#wordcount:
-#  enable: true
-#  post_wordcount: true
-#  min2read: true
-#  total_wordcount: true
+wordcount:
+  enable: false
+  post_wordcount: false
+  min2read: false
+  total_wordcount: false
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
