@@ -1,5 +1,6 @@
 ---
 title: 【数论】gcd、exgcd、质数筛法、逆元与同余方程组复习
+mathjax: true
 tags:
   - gcd
   - exgcd
@@ -14,6 +15,7 @@ categories:
   - 数论
 abbrlink: c22a7f0c
 date: 2023-07-04 00:00:00
+photos: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
 ---
 ## 前言
 

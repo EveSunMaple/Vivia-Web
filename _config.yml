@@ -5,7 +5,7 @@
 # Site
 title: SaroProck
 subtitle: 一处不知名的小站点
-description: 只是一位普通的高中生
+description: 一名喜欢折腾的OIer
 keywords: JavaScript, Web Development, Hexo # 设置默认数组防止报空异常
 author: EveSunMaple
 language: zh-CN
@@ -135,7 +135,23 @@ theme: vivia
 # 使用hexo deploy指令后，自动推送给百度
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'baidu_url_submitter'
+  type: git
+  repo: git@github.com:EveSunMaple/EveSunMaple.github.io.git
+  branch: master
+
+# Math Formulas Render Support
+math:
+  enable: true
+  # Default (true) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in Front-matter.
+  # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
+  per_page: false
+
+  # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
+  mathjax:
+    enable: true
+    # See: https://mhchem.github.io/MathJax-mhchem/
+    mhchem: false
 
 # Generate categories from directory-tree
 # Dependencies: https://github.com/xu-song/hexo-auto-category

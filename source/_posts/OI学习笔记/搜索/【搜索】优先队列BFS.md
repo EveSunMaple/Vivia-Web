@@ -1,5 +1,6 @@
 ---
 abbrlink: da96cdb8
+mathjax: true
 categories:
 - OI学习笔记
 - 搜索
@@ -16,6 +17,7 @@ tags:
 - 二叉堆
 title: 【搜索】优先队列BFS
 updated: 2023-6-26T16:26:17.646+8:0
+photos: https://img1.imgtp.com/2023/07/01/O7NAwNwN.jpg
 ---
 ## 前言
 

@@ -1,5 +1,6 @@
 ---
 abbrlink: 122ed47c
+mathjax: true
 categories:
 - OI学习笔记
 - 动态规划
@@ -14,6 +15,7 @@ tags:
 - OI
 title: 【动态规划】状态压缩DP
 updated: 2023-6-26T16:24:26.184+8:0
+photos: https://img1.imgtp.com/2023/07/02/VGWpchpZ.jpg
 ---
 ## 前言
 

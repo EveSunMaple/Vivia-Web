@@ -41,26 +41,38 @@ recent_posts_limits: 5
 # Personal info
 avatar: /img/myavatar.jpg
 author: EveSunMaple
-subtitle: This is the subtitle
+subtitle: 一名喜欢折腾的OIer
 links:
-  - name: 知乎
-    icon: fa-brands fa-zhihu      # Find icon codes at https://fontawesome.com/search
-    url: https://www.zhihu.com/people/sunmaple-20
-  - name: BiliBili
-    icon: fa-brands fa-bilibili
-    url: https://space.bilibili.com/438392347?spm_id_from=333.1007.0.0
-  - name: GitHub
-    icon: fa-brands fa-github
-    url: https://github.com/EveSunMaple
   - name: email
     icon: fa-solid fa-envelope
     url: mailto:evesunmaple@outlook.com
+  - name: Discord
+    icon: fa-brands fa-discord      # Find icon codes at https://fontawesome.com/search
+    url: https://discord.gg/JhXbkHw4XK
+  - name: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com/EveSunMaple
+  - name: BiliBili
+    icon: fa-brands fa-bilibili
+    url: https://space.bilibili.com/438392347?spm_id_from=333.1007.0.0
   - name: music
-    icon: fa-solid fa-cloud-music
+    icon: fa-solid fa-music
     url: https://music.saroprock.com
 
 comment:
   valine:
-    enable: true
-    appId: CqO3N7bXHAFURAcDVE1BGQWy-MdYXbMMI
-    appKey: xxFIHrKeJzP35Sm7jmHCgdhV
+    enable: true # if you want use valine,please set this value is true
+    appId: CqO3N7bXHAFURAcDVE1BGQWy-MdYXbMMI # leancloud application app id
+    appKey: xxFIHrKeJzP35Sm7jmHCgdhV # leancloud application app key
+    pageSize: 10 # comment list page size
+    avatar: wavatar # gravatar style https://valine.js.org/#/avatar
+    lang: zh-CN # i18n: zh-cn/en
+    placeholder: 花径不曾缘客扫，蓬门今始为君开 # valine comment input placeholder(like: Please leave your footprints )
+    guest_info: 昵称,邮箱,链接 #valine comment header info
+    enableQQ: true
+    serverURLs: "https://api.saroprock.com"
+    
+  # Footer
+#copyright: |-
+#  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#  All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>

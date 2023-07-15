@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md"
+                "file": "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md"
               }
             }
           },
@@ -154,8 +154,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51e386ad764f27fa",
+  "active": "261e2d39481ab371",
   "lastOpenFiles": [
+    "_posts/OI学习笔记/题解备份/7月11日比赛题解备份.md",
+    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+    "_posts/Web折腾/标签插件（Tag Plugins）.md",
+    "未命名 1.md",
+    "未命名.md",
+    "_posts/Web折腾",
     "_posts/7月11日比赛题解备份.md",
     "_posts/生活笔记/别像弱智一样提问.md",
     "_posts/生活笔记/如何摆脱欲望绑架？.md",
@@ -178,7 +184,6 @@
     "Template/Front-matter.md",
     "2023-07-04.md",
     "未命名.canvas",
-    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
     "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
     "_posts/OI学习笔记/数论",
     "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
@@ -189,11 +194,6 @@
     "fonts/FamilyFont.ttf",
     "gallery/index.md",
     "gallery",
-    "_posts/Qexo文章发布测试.md",
-    "talks/index.md",
-    "talks",
-    "pub/talks/index.md",
-    "_posts/OI学习笔记/图论/未命名.md",
     "img/myavatar.jpg",
     "img/myavatar .jpg",
     "img/zdl1.webp"
