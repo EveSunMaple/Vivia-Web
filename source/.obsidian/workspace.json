@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/OI学习笔记/矩阵/【矩阵】矩阵乘法与线性DP优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/OI学习笔记/矩阵/【矩阵】矩阵乘法与线性DP优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/OI学习笔记/矩阵/【矩阵】矩阵乘法与线性DP优化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,18 +150,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aae2587807d9f176",
+  "active": "f74700c421d04176",
   "lastOpenFiles": [
-    "_posts/OI学习笔记/数论/【数论】gcd、exgcd、质数筛法、逆元与同余方程组复习笔记.md",
     "_posts/OI学习笔记/矩阵/【矩阵】矩阵乘法与线性DP优化.md",
+    "未命名.md",
+    "未命名",
+    "_posts/生活笔记/然后，下一曲开始了.md",
+    "_posts/生活笔记/《红楼梦》读后感.md",
+    "_posts/生活笔记/别像弱智一样提问.md",
+    "_posts/OI学习笔记/数论/【数论】gcd、exgcd、质数筛法、逆元与同余方程组复习笔记.md",
     "_posts/生活笔记/ZSTU.Day1游记.md",
     "_posts/OI学习笔记/矩阵",
     "_posts/生活笔记/《乡土中国》读后感.md",
     "_posts/游记",
     "ZSTU.Day1补题",
-    "_posts/生活笔记/别像弱智一样提问.md",
-    "_posts/生活笔记/《红楼梦》读后感.md",
-    "_posts/生活笔记/然后，下一曲开始了.md",
     "_posts/OI学习笔记/注意/【注意】OI竞赛中常见注意点集合.md",
     "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
@@ -188,10 +186,8 @@
     "_posts/7月11日比赛题解备份.md",
     "_posts/生活笔记/如何摆脱欲望绑架？.md",
     "images/stupid_questions/stupid_questions.png.md",
-    "images/what-time-to-use-image.png.md",
     "images/stupid_questions",
     "images",
-    "wheels",
     "未命名.canvas",
     "img/code-wallpaper-18.png",
     "img/myavatar.jpg",
