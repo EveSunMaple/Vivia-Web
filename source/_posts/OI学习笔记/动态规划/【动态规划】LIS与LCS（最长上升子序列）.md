@@ -4,15 +4,13 @@ mathjax: true
 categories:
 - OI学习笔记
 - 动态规划
-date: '2023-05-14T00:00:00+08:00'
-excerpt: 引子-LIS问题 这几天在学习DP（动态规划），里面第一个接触到的问题就是LIS问题，这里简单概述如下:  给定一个长度为N的数列A，求数值单调递增的子序列的的长度最长是多少？  其中LIS（最长上升子序列）指的是从序列A中选择若干个i，使得i_1&lt;i_2&lt;i_3...&lt;i_n的同时满足A_i_1&lt;A_i_2&lt;A_i_3...&...
+date: 2023-05-14 00:00:00
 tags:
 - DP
 - 线性动态规划
 - C++
 - OI
 title: 【动态规划】LIS与LCS（最长上升子序列）
-updated: 2023-6-27T16:19:7.567+8:0
 photos: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
 ---
 ## 引子-LIS问题

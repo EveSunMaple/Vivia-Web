@@ -1,6 +1,5 @@
 ---
 title: 全站统计
-date: 2023-05-14 10:29:55
 ---
 <script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/statistic.js"></script>
 <!-- 文章发布时间统计图 -->
