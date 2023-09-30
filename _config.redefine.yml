@@ -146,10 +146,12 @@ home_banner:
     # Social links
     links:
       github: ttps://github.com/EveSunMaple # your GitHub URL
+      fa-brands fa-discord: https://discord.gg/JhXbkHw4XK
       instagram: # your Instagram URL
       zhihu: https://www.zhihu.com/people/sunmaple-20 # your ZhiHu URL
       twitter:  # your twitter URL
       email: mailto:evesunmaple@outlook.com # your email
+      fa-solid fa-music: https://music.saroprock.com
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -184,9 +186,9 @@ navbar:
     Status: 
       path: https://status.evanluo.top/
       icon: fa-regular fa-chart-bar
-    About: 
-      path: /comments
-      icon: fa-regular fa-user
+    说说: 
+      path: /essays
+      icon: fa-regular fa-book
     Links: 
       path: /link
       icon: fa-regular fa-link

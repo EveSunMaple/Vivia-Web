@@ -1,0 +1,31 @@
+- links_category: 本站
+  has_thumbnail: false
+  list: 
+    - name: EveSunMaple
+      link: https://www.saroprock.com
+      description: 一处不知名的小站点
+      avatar: https://www.saroprock.com/img/myavatar.jpg
+ 
+- links_category: Normal
+  has_thumbnail: false
+  list: 
+    - name: ayublog`Blog
+      link: https://www.maresera.top/
+      description: If life is done programmatically, I will try to debug it.
+      avatar: https://img1.imgtp.com/2023/07/01/Yoj2FO6H.png
+    - name: Echo 的小窝
+      link: https://www.liveout.cn/
+      description: 漂泊于互联中的一个小窝
+      avatar: https://yy.liveout.cn/photo/photo2.jpg
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      description: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+    - name: 安知鱼`Blog
+      link: https://blog.anheyu.com/
+      description: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      avatar: https://img01.anheyu.com/useruploads/90/2023/04/23/6444e85234e51.jpg
+    - name: jingdutiao’s blog
+      link: https://www.jingdutiao.site/
+      description: 我寄愁心与明月,随君直到夜郎西
+      avatar: https://www.jingdutiao.site/1000.jpg
