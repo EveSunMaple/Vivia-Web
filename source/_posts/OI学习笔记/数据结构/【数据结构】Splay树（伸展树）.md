@@ -10,7 +10,7 @@ tags:
 categories:
   - OI学习笔记
   - 数据结构
-photos: 'https://img1.imgtp.com/2023/08/09/fVh3IupU.jpg'
+thumbnail: https://img1.imgtp.com/2023/08/09/fVh3IupU.jpg
 abbrlink: 7aad3841
 date: 2023-08-09 00:00:00
 ---

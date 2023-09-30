@@ -7,7 +7,7 @@ tags:
   - 特征方程
   - 递推
   - 数列
-photos: 'https://img1.imgtp.com/2023/08/12/82k0pt9v.jpg'
+thumbnail: https://img1.imgtp.com/2023/08/12/82k0pt9v.jpg
 categories:
   - OI学习笔记
   - 线性代数

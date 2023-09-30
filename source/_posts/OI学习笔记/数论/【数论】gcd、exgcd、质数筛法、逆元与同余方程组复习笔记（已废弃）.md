@@ -15,7 +15,7 @@ categories:
   - 数论
 abbrlink: c22a7f0c
 date: 2023-07-04 00:00:00
-photos: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
+thumbnail: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
 ---
 ## 前言
 

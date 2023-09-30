@@ -2,19 +2,19 @@
 abbrlink: da96cdb8
 mathjax: true
 categories:
-- OI学习笔记
-- 搜索
+  - OI学习笔记
+  - 搜索
 date: 2023-05-14 00:00:00
 description: 优先队列BFS讲解+例题
 tags:
-- C++
-- BFS
-- OI
-- 搜索
-- 优先队列
-- 二叉堆
+  - C++
+  - BFS
+  - OI
+  - 搜索
+  - 优先队列
+  - 二叉堆
 title: 【搜索】优先队列BFS
-photos: https://img1.imgtp.com/2023/07/01/O7NAwNwN.jpg
+thumbnail: https://img1.imgtp.com/2023/07/01/O7NAwNwN.jpg
 ---
 ## 前言
 

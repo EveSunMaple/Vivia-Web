@@ -2,16 +2,16 @@
 abbrlink: ac6b0409
 mathjax: true
 categories:
-- OI学习笔记
-- 动态规划
+  - OI学习笔记
+  - 动态规划
 date: 2023-05-14 00:00:00
 tags:
-- DP
-- 线性动态规划
-- C++
-- OI
+  - DP
+  - 线性动态规划
+  - C++
+  - OI
 title: 【动态规划】LIS与LCS（最长上升子序列）
-photos: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
+thumbnail: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
 ---
 ## 引子-LIS问题
 

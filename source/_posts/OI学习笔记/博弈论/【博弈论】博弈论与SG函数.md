@@ -7,7 +7,7 @@ tags:
   - ICG游戏
   - DAG游戏
   - OI
-photos: 'https://img1.imgtp.com/2023/08/07/P8v7smao.jpg'
+thumbnail: https://img1.imgtp.com/2023/08/07/P8v7smao.jpg
 categories:
   - OI学习笔记
   - 博弈论

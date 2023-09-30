@@ -2,18 +2,18 @@
 abbrlink: 122ed47c
 mathjax: true
 categories:
-- OI学习笔记
-- 动态规划
-date: 2023-06-10 00:00:00 
+  - OI学习笔记
+  - 动态规划
+date: 2023-06-10 00:00:00
 tags:
-- 优化
-- 状态压缩
-- DP
-- 动态规划
-- C++
-- OI
+  - 优化
+  - 状态压缩
+  - DP
+  - 动态规划
+  - C++
+  - OI
 title: 【动态规划】状态压缩DP
-photos: https://img1.imgtp.com/2023/07/02/VGWpchpZ.jpg
+thumbnail: https://img1.imgtp.com/2023/07/02/VGWpchpZ.jpg
 ---
 ## 前言
 
