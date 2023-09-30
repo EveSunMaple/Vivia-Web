@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a8127e5e3ec8e1a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,7 +207,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f74700c421d04176",
+  "active": "0a8127e5e3ec8e1a",
   "lastOpenFiles": [
     "2023-09-30.md",
     "未命名 1.canvas",
