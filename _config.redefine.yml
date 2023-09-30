@@ -23,7 +23,7 @@ defaults:
   # Favicon
   favicon: /img/favicon.png
   # Site logo
-  logo: 
+  logo: /img/favicon.png
   # Site avatar
   avatar: /img/myavatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -44,7 +44,7 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: ture # Whether to enable custom chinese font
+      enable: false # Whether to enable custom chinese font
       family: /fonts/YunFont.ttf # Font family
       url:  # Font URL to CSS file
     # English fonts
@@ -259,7 +259,7 @@ articles:
     copy: true # Whether to enable code block copy button
     style: mac # mac | simple
     font: # Custom font
-      enable: true # Whether to enable
+      enable: false # Whether to enable
       family: /fonts/CodeFont.ttf # Font family
       url: # Font URL to CSS file
   # Table of contents settings
@@ -337,7 +337,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2023/5/14 00:45:33
   # Footer message
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
@@ -400,7 +400,7 @@ page_templates:
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: jsdelivr # jsdelivr, unpkg, aliyun, custom
   # Custom CDN URL
