@@ -1,0 +1,332 @@
+
+// Config
+support-for-ie = false
+vendor-prefixes = webkit moz ms official
+
+// Colors
+color-default = #555
+color-grey = #999
+color-border = #ddd
+color-link = #258fb8
+color-background = #eee
+color-sidebar-text = #777
+color-widget-background = #ddd
+color-widget-border = #ccc
+color-footer-background = #262a30
+color-mobile-nav-background = #191919
+color-twitter = #00aced
+color-facebook = #3b5998
+color-pinterest = #cb2027
+color-linkedin = #0077B5
+
+// Fonts
+font-sans = "Roboto", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif
+font-serif = Georgia, "Times New Roman", serif
+font-mono = "JetBrains Mono", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
+font-icon = FontAwesome
+font-icon-path = "fonts/fontawesome-webfont"
+font-icon-version = "4.7.0"
+font-size = 16px
+line-height = 1.6em
+line-height-title = 1.1em
+
+// Header
+logo-size = 40px
+subtitle-size = 16px
+banner-height = 300px
+banner-url = hexo-config("banner")
+
+sidebar = hexo-config("sidebar")
+
+// Layout
+block-margin = 16px
+article-padding = 20px
+article-top-padding = 32px
+article-side-padding = 40px
+article-bottom-padding = 16px
+mobile-nav-width = 280px
+main-column = 9
+sidebar-column = 3
+
+mobile-article-side-padding = 28px
+
+if sidebar and sidebar isnt bottom
+  _sidebar-column = sidebar-column
+else
+  _sidebar-column = 0
+
+// Styles
+card-radius = 16px
+inner-radius = 8px
+
+// Transitions
+trans-style = 0.15s ease-out
+
+// Grids
+column-width = 80px
+gutter-width = 12px
+columns = main-column + _sidebar-column
+full-width = (column-width + gutter-width) * columns
+
+// New Grid
+page-width = 1200px
+sidebar-width = 280px
+
+// Media queries
+mq-mobile = "screen and (max-width: 767px)"
+mq-tablet = "screen and (min-width: 768px) and (max-width: 1023px)"
+mq-normal = "screen and (min-width: 1024px)"
+
+// Colors
+color-N90 = alpha(white, 0.9)
+color-N75 = alpha(white, 0.75)
+color-N50 = alpha(white, 0.5) 
+color-N30 = alpha(white, 0.3) 
+color-N10 = alpha(white, 0.1)
+
+color-B90 = alpha(black, 0.9)
+color-B75 = alpha(black, 0.75)
+color-B50 = alpha(black, 0.5)
+color-B30 = alpha(black, 0.3)
+color-B10 = alpha(black, 0.1)
+
+:root
+  --V05: default-V05
+  --V10: default-V10
+  --V15: default-V15
+  --V20: default-V20
+  --V25: default-V25
+  --V30: default-V30
+  --V35: default-V35
+  --V40: default-V40
+  --V45: default-V45
+  --V50: default-V50
+  --V55: default-V55
+  --V60: default-V60
+  --V65: default-V65
+  --V70: default-V70
+  --V75: default-V75
+  --V80: default-V80
+  --V85: default-V85
+  --V90: default-V90
+  --V95: default-V95
+  --V98: default-V98
+  
+  --M05: default-M05
+  --M10: default-M10
+  --M15: default-M15
+  --M20: default-M20
+  --M25: default-M25
+  --M30: default-M30
+  --M35: default-M35
+  --M40: default-M40
+  --M45: default-M45
+  --M50: default-M50
+  --M55: default-M55
+  --M60: default-M60
+  --M65: default-M65
+  --M70: default-M70
+  --M75: default-M75
+  --M80: default-M80
+  --M85: default-M85
+  --M90: default-M90
+  --M95: default-M95
+  --M98: default-M98
+
+  --G05: default-G05
+  --G10: default-G10
+  --G15: default-G15
+  --G20: default-G20
+  --G25: default-G25
+  --G30: default-G30
+  --G35: default-G35
+  --G40: default-G40
+  --G45: default-G45
+  --G50: default-G50
+  --G55: default-G55
+  --G60: default-G60
+  --G65: default-G65
+  --G70: default-G70
+  --G75: default-G75
+  --G80: default-G80
+  --G85: default-G85
+  --G90: default-G90
+  --G95: default-G95
+  --G98: default-G98
+
+  --dark-L16: dark-L16
+  --dark-L20: dark-L20
+  --dark-L25: dark-L25
+  --dark-L40: dark-L40
+  --dark-L50: dark-L50
+  --dark-L75: dark-L75
+
+  --light-L55: light-L55
+  --light-L70: light-L70
+  --light-L95: light-L95
+  --light-L95G: light-L95G
+  --light-L98: light-L98
+
+  --neut-L90: color-N90
+  --neut-L75: color-N75
+  --neut-L50: color-N50
+  --neut-L30: color-N30
+  --neut-L10: color-N10
+
+  // Layout Color
+  --page-background: var(--dark-L16)
+  --card-background: var(--dark-L25)
+
+  --banner-dim: alpha(#000, 0.2)
+
+  // Component Color
+  --primary: var(--V75)
+  --main-title: color-N90
+
+  --nav-dropdown-bg: var(--dark-L20)
+
+  --btn-bg: var(--M40)
+  --btn-content: color-N75
+  --btn-hover: var(--M45)
+  --btn-active: var(--M50)
+  --btn-content-hover: var(--btn-content)
+
+  --card-btn-bg: var(--card-background)
+  --card-btn-hover: var(--M30)
+  --card-btn-active: var(--M35)
+  --card-btn-icon: var(--primary)
+
+  --btn-text-hover: var(--M20)
+  --btn-text-active: var(--M15)
+  --btn-text-neutral-text: var(--neut-L75)
+  --btn-text-content: var(--primary)
+  --btn-text-light-text: var(--primary)
+
+  --timeline-dim-dot: var(--dark-L50)
+
+  --title-hover: var(--primary)
+  --title-active: var(--V65)
+
+  --light-dot: var(--primary)
+
+  --tag-dot: var(--dark-L25)
+
+  --article-meta: color-N50
+  --article-text: color-N75
+  --highlight-selection: var(--M35)
+  --article-code-bg: var(--dark-L40)
+  --article-block: var(--dark-L20)
+  --link: var(--primary)
+  --link-hover-bg: var(--V40)
+  --link-active-bg: var(--V35)
+  --blockquote-bg: var(--dark-L20)
+
+  --color-picker-border: var(--primary)
+  --color-picker-range: var(--dark-L40)
+  --color-picker-thumb: var(--primary)
+
+  --badge-bg: var(--dark-L75)
+  --text-on-light: var(--dark-L25)
+
+  --pagenav-curr-bg: var(--primary)
+  --pagenav-curr-text: var(--dark-L25)
+
+  --info-name: color-N90
+  --info-sub: color-N50
+
+  --widget-title: var(--main-title)
+
+  --archive-year: var(--neut-L75)
+  --archive-date: var(--neut-L50)
+  --archive-title: var(--neut-L75)
+  --archive-tags: var(--neut-L30)
+  --archive-dashline: var(--neut-L10)
+
+  --input-field: var(--dark-L20)
+
+  --primary-btn-bg: var(--primary)
+  --primary-btn-text: var(--dark-L25)
+
+  --enter-btn-bg: var(--M20)
+  --enter-btn-hover: var(--M30)
+  --enter-btn-active: var(--M35)
+  --img-overlay: rgba(black, 0.1)
+
+  // Layout Setting
+  --sidebar-width: sidebar-width
+
+  // light/dark mode icon
+  --display-light-icon: 0
+  --display-dark-icon: 1
+
+  --selection-bg: var(--V40);
+
+:root[theme='light']
+  --page-background: var(--light-L95G)
+  --card-background: white
+
+  --banner-dim: none
+
+  --neut-L90: color-B90
+  --neut-L75: color-B75
+  --neut-L50: color-B50
+  --neut-L30: color-B30
+  --neut-L10: color-B10
+
+  // Component
+  --primary: var(--V70)
+  --main-title: color-B90
+
+  --nav-dropdown-bg: var(--light-L98)
+
+  --btn-bg: var(--V95)
+  --btn-content: var(--light-L55)
+  --btn-hover: var(--V90)
+  --btn-active: var(--V85)
+  // --btn-content-hover: color-N90
+
+  --btn-text-hover: var(--V95)
+  --btn-text-active: var(--V98)
+  --btn-text-neutral-text: color-B75
+  --btn-text-content: var(--light-L70)
+
+  --card-btn-hover: var(--M98)
+  --card-btn-active: var(--M90)
+
+  --title-active: var(--V60)
+
+  --link-hover-bg: var(--V95)
+  --link-active-bg: var(--V90)
+
+  --tag-dot: var(--btn-content)
+
+  --info-name: color-B90
+  --info-sub: color-B50
+
+  --article-code-bg: var(--light-L95)
+  --article-meta: color-B50
+  --article-text: color-B75
+  --blockquote-bg: var(--M98)
+
+  --badge-bg: var(--light-L95)
+  --text-on-light: var(--light-L55)
+
+  --pagenav-curr-text: color-N90
+
+  --color-picker-range: var(--light-L95)
+
+  --input-field: var(--light-L98)
+  --primary-btn-text: color-N90
+
+  --enter-btn-bg: var(--M98)
+  --enter-btn-hover: var(--M95)
+  --enter-btn-active: var(--M90)
+  --img-overlay: rgba(black, 0)
+
+  --display-light-icon: 1
+  --display-dark-icon: 0  
+
+  --selection-bg: var(--V90);

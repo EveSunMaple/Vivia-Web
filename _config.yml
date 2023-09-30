@@ -128,7 +128,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: vivia
+theme: redefine
 
 # Deployment
 # Deployment
@@ -136,7 +136,7 @@ theme: vivia
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:EveSunMaple/EveSunMaple.github.io.git
+  repo: git@github.com:EveSunMaple/Vivia-Web.git
   branch: master
 
 # Math Formulas Render Support

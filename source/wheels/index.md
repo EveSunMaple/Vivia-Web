@@ -4,38 +4,17 @@ date: 2023-05-14 08:06:15
 type: "wheels"
 ---
 
-### 快读
+### Log2
 
 ```C++
-inline int read()
+unsigned Log2(unsigned x)
 {
-    int x = 0, f = 1;
-    char ch = getchar();
-    while(ch < '0' || ch > '9'){
-        if(ch == '-')
-            f = -1;
-        ch = getchar();
-    }
-    while(ch >= '0' && ch <= '9'){
-        x = x * 10 + ch - '0';
-        ch = getchar();
-    }
-    return x * f;
-}
-```
-
-### 快输
-
-```C++
-inline void print(int x)
-{
-    if(x < 0){
-        putchar('-');
-        x = -x;
-    }
-    if(x > 9)
-        print(x / 10);
-    putchar(x % 10 + '0');
+    x |= x >> 1;
+    x |= x >> 2;
+    x |= x >> 4;
+    x |= x >> 8;
+    x |= x >> 16;
+    return log2(x) + 0.5;
 }
 ```
 

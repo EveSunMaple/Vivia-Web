@@ -20,7 +20,7 @@ type: 'link'
 ## 申请格式
 
 **名称：SaroProck**
-**介绍：一处不知名的小站点**
+**介绍：一名喜欢折腾的OIer**
 **链接：https://www.saroprock.com/**  
 **头像：https://www.saroprock.com/img/myavatar.jpg**
 

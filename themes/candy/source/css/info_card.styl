@@ -1,0 +1,93 @@
+.app_recommend
+    border-radius: 15px
+    max-width: 500px
+    display: block
+    margin-left: auto
+    margin-right: auto
+    background-color: #f5f5f5
+    box-shadow: none
+    .media
+        margin-bottom:0 !important
+        align-items: center
+    .media-content
+        align-self: center
+
+.app_icon
+    background-color: #0278d7
+    padding: 10px
+    border-radius: 15px
+    margin-bottom: 0 !important
+    margin-left: 0!important
+    margin-right: 1.25rem !important
+
+.level.download-icon
+    color:black
+    margin-right: -10px
+    float:right
+    margin-bottom: 0px !important
+    .icon
+        margin-right: 10px
+        border-radius: 999px
+    > *
+        fill: black
+
+.dark .download-icon
+    color:white
+    > *
+        fill: white
+
+.app_recommend .media .image
+    width: 48px
+    height: 48px
+
+.box.app_recommend
+    margin-bottom: 2rem !important
+    small
+    font-size: small
+
+@media (max-width: 501px)
+    .app_recommend .media
+        position: relative
+    .download-icon
+        position:absolute
+        bottom: -31px
+        right: -3px
+@media (max-width: 375px)
+    .app_recommend .content p
+        line-height: 1.4
+        strong
+            font-size: 16px
+        small
+            font-size: 13px
+@media (max-width: 320px)
+    .box.app_recommend
+        padding: 1rem !important
+    .app_recommend .content p
+        strong
+            font-size: 15px
+        small
+            font-size: 10px
+
+.small-icon
+    border-left: 2px transparent solid
+    border-right: 2px transparent solid
+
+.product__price-tag::after
+    content: ''
+    position: absolute
+    border-right: 16px solid transparent
+    border-top: 8px solid #c42646
+    right: 0px;top: 20px
+.product__price-tag
+    width: 65px
+    display: flex
+    align-items: center
+    height: 20px
+    border-radius: 8px 8px 0 8px
+    background: #ff375f
+    position: absolute
+    top: -25px
+    right: -33.5px
+    justify-content center
+.app_recommend .media
+    position:relative

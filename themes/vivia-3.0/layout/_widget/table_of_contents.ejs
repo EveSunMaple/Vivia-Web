@@ -1,0 +1,24 @@
+<% if (site.posts.length){ %>
+  <div class="widget-directory">
+    <div class="widget">
+      <h3 class="widget-title"><%= __('table_of_contents') %></h3>
+        <ul>
+          <!-- 使用JavaScript生成目录的内容 -->
+          <script>
+            var headings = document.querySelectorAll('.e-content article-entry h2, .e-content article-entry h3');
+            var directoryList = document.querySelector('.article-directory ul');
+  
+            headings.forEach(function(heading) {
+              var listItem = document.createElement('li');
+              var link = document.createElement('a');
+              link.textContent = heading.textContent;
+              link.href = '#' + heading.id;
+              listItem.appendChild(link);
+              directoryList.appendChild(listItem);
+            });
+          </script>
+        </ul>
+      </div>
+    </div>
+  <% } %>
+  

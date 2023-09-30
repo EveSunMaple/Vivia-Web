@@ -41,7 +41,9 @@ recent_posts_limits: 5
 # Personal info
 avatar: /img/myavatar.jpg
 author: EveSunMaple
-subtitle: 一名喜欢折腾的OIer
+subtitle: 一名喜欢折腾的OIer<br>
+          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">博客访问量：<strong><span id="busuanzi_value_site_pv"></span></strong>次</span>
 links:
   - name: email
     icon: fa-solid fa-envelope
@@ -61,16 +63,43 @@ links:
 
 comment:
   valine:
-    enable: true # if you want use valine,please set this value is true
-    appId: CqO3N7bXHAFURAcDVE1BGQWy-MdYXbMMI # leancloud application app id
-    appKey: xxFIHrKeJzP35Sm7jmHCgdhV # leancloud application app key
-    pageSize: 10 # comment list page size
-    avatar: wavatar # gravatar style https://valine.js.org/#/avatar
-    lang: zh-CN # i18n: zh-cn/en
-    placeholder: 花径不曾缘客扫，蓬门今始为君开 # valine comment input placeholder(like: Please leave your footprints )
-    guest_info: 昵称,邮箱,链接 #valine comment header info
-    enableQQ: true
-    serverURLs: "https://api.saroprock.com"
+    enable: false
+    appId: 
+    appKey: 
+    placeholder: Just go go
+    pageSize: 10
+    highlight: true
+    serverURLs: 
+    # Other supported parameters can be added here if needed
+    # Visit https://valine.js.org/configuration.html for more details
+  twikoo:
+    enable: true
+    envID: https://twikoo.saroprock.com/
+    region:
+    path: location.pathname
+    lang: zh-CN
+    # See also: https://github.com/imaegoo/twikoo
+
+#Analytics
+gauges_analytics: true
+google_analytics: true #UA-xxxxxx
+baidu_analytics: true # ddxxxxxxxxxxxxxxxxx In the https://hm.baidu.com/hm.js? Afterwards
+
+#Copyright
+copyright: <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris"></a>
+
+#comment:
+#  valine:
+#    enable: true # if you want use valine,please set this value is true
+#    appId: CqO3N7bXHAFURAcDVE1BGQWy-MdYXbMMI # leancloud application app id
+#    appKey: xxFIHrKeJzP35Sm7jmHCgdhV # leancloud application app key
+#    pageSize: 10 # comment list page size
+#    avatar: wavatar # gravatar style https://valine.js.org/#/avatar
+#    lang: zh-CN # i18n: zh-cn/en
+#    placeholder: 花径不曾缘客扫，蓬门今始为君开 # valine comment input placeholder(like: Please leave your footprints )
+#    guest_info: 昵称,邮箱,链接 #valine comment header info
+#    enableQQ: true
+#    serverURLs: "https://api.saroprock.com"
     
   # Footer
 #copyright: |-
