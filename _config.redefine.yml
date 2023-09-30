@@ -184,7 +184,7 @@ navbar:
       icon: fa-solid fa-folder #图标
       path: /categories/ #链接
     Status: 
-      path: https://status.evanluo.top/
+      path: https://status.saroprock.com/
       icon: fa-regular fa-chart-bar
     说说: 
       path: /essays
