@@ -50,6 +50,7 @@
     "hexo-word-counter": "^0.1.0",
     "hexo-wordcount": "^6.0.1",
     "katex": "^0.16.7",
+    "node-pre-gyp-github": "^1.4.4",
     "typed.js": "^2.0.16",
     "valine": "^1.5.1"
   },
