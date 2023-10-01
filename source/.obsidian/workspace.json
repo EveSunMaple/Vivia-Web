@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/生活笔记/《乡土中国》读后感.md",
+                "file": "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55d92cdc8f540511",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/生活笔记/《乡土中国》读后感.md",
+                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/生活笔记/《乡土中国》读后感.md",
+                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/生活笔记/《乡土中国》读后感.md"
+                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md"
               }
             }
           },
@@ -202,10 +215,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aae2587807d9f176",
+  "active": "55d92cdc8f540511",
   "lastOpenFiles": [
-    "_posts/生活笔记/《红楼梦》（前十回）读后感.md",
-    "_posts/生活笔记/《古文观止》读后感.md",
+    "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
+    "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
+    "_posts/随笔/学校的任务罢了/《红楼梦》（前十回）读后感.md",
+    "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
+    "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
+    "Template/Front-matter.md",
+    "_posts/转载/别像弱智一样提问.md",
+    "_posts/随笔/笔随心动",
+    "_posts/转载",
+    "_posts/随笔/学校的任务罢了",
     "wheels/index.md",
     "未命名.canvas",
     "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
@@ -228,26 +249,18 @@
     "img/banner.png.crdownload",
     "2023-09-30.md",
     "未命名 1.canvas",
-    "_posts/生活笔记/别像弱智一样提问.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
-    "_posts/OI学习笔记/博弈论/【博弈论】博弈论与SG函数.md",
-    "_posts/生活笔记/信奥队五月竞赛总结反思.md",
     "_data/essays.yml",
     "essays",
     "_data/links.yml",
     "_data",
     "links/link.js",
     "links",
-    "categories",
-    "tags",
     "img/favicon.png",
     "img/favicon-dark-192.png",
     "img copy/zdl1.webp",
     "img copy/myavatar.jpg",
     "img copy/code-wallpaper-18.png",
     "img copy/banner.png",
-    "img copy",
     "img/code-wallpaper-18.png",
     "img/myavatar.jpg",
     "img/myavatar .jpg",
