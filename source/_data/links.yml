@@ -1,12 +1,19 @@
-- links_category: 本站
+- links_category: 本站相关
   has_thumbnail: false
   list: 
-    - name: EveSunMaple
+    - name: SaroProck
       link: https://www.saroprock.com
       description: 一处不知名的小站点
       avatar: https://www.saroprock.com/img/myavatar.jpg
- 
-- links_category: Normal
+    - name: Saro-Music
+      link: https://music.saroprock.com
+      description: qier222的第三方网易云播放器项目
+      avatar: https://raw.githubusercontent.com/qier222/YesPlayMusic/master/images/logo.png
+    - name: Saro-BingAI
+      link: https://music.saroprock.com
+      description: adams549659584的go-proxy-bing项目
+      avatar: https://img.icons8.com/fluency/452/bing--v1.png
+- links_category: 友情链接
   has_thumbnail: false
   list: 
     - name: ayublog`Blog
