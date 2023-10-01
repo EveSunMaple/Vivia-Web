@@ -1,5 +1,5 @@
 ---
-title: 友链
+title: 链接
 type: links
 date: 2023-05-13 14:16:07
 comment: true
