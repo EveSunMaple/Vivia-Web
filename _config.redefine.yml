@@ -145,7 +145,7 @@ home_banner:
     enable: true
     # Social links
     links:
-      github: ttps://github.com/EveSunMaple # your GitHub URL
+      github: https://github.com/EveSunMaple # your GitHub URL
       fa-brands fa-discord: https://discord.gg/JhXbkHw4XK
       instagram: # your Instagram URL
       zhihu: https://www.zhihu.com/people/sunmaple-20 # your ZhiHu URL
