@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
+                "file": "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "9a4c1f70a504adb3",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 432.5
   },
   "right": {
     "id": "ed5e83c20782fe83",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
+                "file": "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
+                "file": "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md"
+                "file": "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md"
               }
             }
           },
@@ -174,14 +182,15 @@
   },
   "active": "aae2587807d9f176",
   "lastOpenFiles": [
+    "img/inside.png",
+    "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
+    "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
     "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
     "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/博弈论/【博弈论】博弈论与SG函数.md",
     "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
-    "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
     "_posts/随笔/学校的任务罢了/《红楼梦》（前十回）读后感.md",
-    "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
     "Template/Front-matter.md",
     "_posts/转载/别像弱智一样提问.md",
     "_posts/随笔/笔随心动",
@@ -203,7 +212,6 @@
     "_posts/OI学习笔记/图论/【图论】双连通分量.md",
     "_posts/OI学习笔记/图论/【图论】最短路.md",
     "_posts/OI学习笔记/线性代数/【线性代数】矩阵乘法与线性DP优化.md",
-    "_posts/OI学习笔记/线性代数/【线性代数】生成函数在非常系数与非齐次的线性递推关系的应用.md",
     "img/banner.png.crdownload",
     "未命名 1.canvas",
     "_data/essays.yml",
