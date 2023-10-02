@@ -13,56 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
+                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "55d92cdc8f540511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b176347ef3a18ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wheels/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb720e71973f22ee",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "0a8127e5e3ec8e1a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
+                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
+                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md"
+                "file": "_posts/随笔/学校的任务罢了/《古文观止》读后感.md"
               }
             }
           },
@@ -215,13 +172,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "55d92cdc8f540511",
+  "active": "aae2587807d9f176",
   "lastOpenFiles": [
-    "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
+    "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/博弈论/【博弈论】博弈论与SG函数.md",
+    "_posts/随笔/学校的任务罢了/《乡土中国》读后感.md",
     "_posts/随笔/学校的任务罢了/《古文观止》读后感.md",
     "_posts/随笔/学校的任务罢了/《红楼梦》（前十回）读后感.md",
-    "_posts/随笔/笔随心动/浮躁是常态，但性本应静.md",
     "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
     "Template/Front-matter.md",
     "_posts/转载/别像弱智一样提问.md",
@@ -231,7 +190,6 @@
     "wheels/index.md",
     "未命名.canvas",
     "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/数据结构/【数据结构】__int128.md",
     "_posts/OI学习笔记/数据结构/【数据结构】邻接表与链式前向星.md",
     "_posts/OI学习笔记/数论/【数论】初等数论与线性代数综合.md",
@@ -246,7 +204,6 @@
     "_posts/OI学习笔记/图论/【图论】最短路.md",
     "_posts/OI学习笔记/线性代数/【线性代数】矩阵乘法与线性DP优化.md",
     "_posts/OI学习笔记/线性代数/【线性代数】生成函数在非常系数与非齐次的线性递推关系的应用.md",
-    "_posts/OI学习笔记/线性代数/【线性代数】k阶常系数线性递推方程.md",
     "img/banner.png.crdownload",
     "未命名 1.canvas",
     "_data/essays.yml",

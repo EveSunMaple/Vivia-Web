@@ -4,5 +4,6 @@
   "monospaceFontFamily": "Cascadia Code PL SemiBold",
   "textFontFamily": "",
   "translucency": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "cssTheme": "Things"
 }
