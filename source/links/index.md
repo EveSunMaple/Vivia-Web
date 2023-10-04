@@ -26,4 +26,4 @@ comment: true
 **链接：https://www.saroprock.com/**  
 **头像：https://www.saroprock.com/img/myavatar.jpg**
 
->友链个数：`5`
+>友链个数：`6`
