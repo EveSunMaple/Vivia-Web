@@ -4,41 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f53a3fce4086b3fd",
+        "id": "0f7667f0f1c44734",
         "type": "tabs",
         "children": [
           {
-            "id": "cadaa5084acc8999",
+            "id": "52ea31418601bc57",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.saroprock.com/links"
-              }
-            }
-          },
-          {
-            "id": "d829a00adad3e435",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.jingdutiao.site/"
-              }
-            }
-          },
-          {
-            "id": "2dddeb4f87890c4a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.maresera.top/"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +172,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2dddeb4f87890c4a",
+  "active": "52ea31418601bc57",
   "lastOpenFiles": [
     "_posts/随笔/学校的任务罢了/信奥队五月竞赛总结反思.md",
     "_data/未命名.canvas",
