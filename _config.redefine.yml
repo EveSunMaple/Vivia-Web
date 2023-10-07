@@ -284,7 +284,7 @@ articles:
     # Max number of articles to display mobile
     mobile_limit: 2
     # Placeholder image
-    placeholder: /img/inside.png
+    placeholder: https://t.mwm.moe/fj/
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
