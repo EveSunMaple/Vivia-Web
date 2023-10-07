@@ -43,39 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "cadaa5084acc8999",
-      "parent": 0,
-      "droppable": true,
-      "text": "链接 - SaroProck",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "2dddeb4f87890c4a",
-      "parent": 0,
-      "droppable": true,
-      "text": "MareSera",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "d829a00adad3e435",
-      "parent": 0,
-      "droppable": true,
-      "text": "搅局's blog – 我寄愁心与明月，随君直到夜郎西",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
