@@ -11,8 +11,12 @@
             "id": "a071b6b5c337c26d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md"
+              }
             }
           },
           {
@@ -174,6 +182,8 @@
   },
   "active": "a071b6b5c337c26d",
   "lastOpenFiles": [
+    "fonts/CodeFont.ttf",
+    "fonts/CascadiaCode-Bold.ttf",
     "music/index.md",
     "links/index.md",
     "img/zdl1.webp",
@@ -204,7 +214,6 @@
     "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
     "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
     "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
-    "_posts/OI学习笔记/博弈论/【博弈论】博弈论与SG函数.md",
     "_data/未命名.canvas",
     "_posts/随笔/笔随心动",
     "_posts/转载",
@@ -217,7 +226,6 @@
     "_data/links.yml",
     "_data",
     "links/link.js",
-    "links",
     "img/favicon.png",
     "img/favicon-dark-192.png",
     "img copy/zdl1.webp",
