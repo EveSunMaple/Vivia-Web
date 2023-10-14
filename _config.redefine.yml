@@ -44,9 +44,9 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese font
-      family: /fonts/YunFont.ttf # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom chinese font
+      family: YunFont # Font family
+      url: https://www.saroprock.com/fonts/YunFont.ttf # Font URL to CSS file
     # English fonts
     english: 
       enable: false # Whether to enable custom chinese font
@@ -259,9 +259,9 @@ articles:
     copy: true # Whether to enable code block copy button
     style: mac # mac | simple
     font: # Custom font
-      enable: false # Whether to enable
-      family: /fonts/CodeFont.ttf # Font family
-      url: # Font URL to CSS file
+      enable: true # Whether to enable
+      family: CodeFont # Font family
+      url: https://www.saroprock.com/fonts/CodeFont.ttf # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
