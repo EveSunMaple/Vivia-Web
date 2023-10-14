@@ -9,6 +9,6 @@
   "fixPath": false,
   "applyImage": true,
   "newWorkBlackDomains": "",
-  "deleteSource": false,
+  "deleteSource": true,
   "uploadedImages": []
 }
