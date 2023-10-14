@@ -12,7 +12,7 @@ categories:
   - OI学习笔记
   - 线性代数
 abbrlink: "67047465"
-thumbnail: https://img1.imgtp.com/2023/08/05/BeoatoVd.jpg
+thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.jpg
 date: 2023-08-03 00:00:00
 ---
 

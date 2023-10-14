@@ -7,7 +7,7 @@ tags:
   - ICG游戏
   - DAG游戏
   - OI
-thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/mathematics-1622448_1920.jpg
+thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/%E5%8D%9A%E5%BC%88%E8%AE%BA.jpg
 categories:
   - OI学习笔记
   - 博弈论

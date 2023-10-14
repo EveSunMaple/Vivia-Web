@@ -13,7 +13,7 @@ tags:
   - C++
   - OI
 title: 【动态规划】状态压缩DP
-thumbnail: https://img1.imgtp.com/2023/07/02/VGWpchpZ.jpg
+thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9.jpeg
 ---
 ## 前言
 

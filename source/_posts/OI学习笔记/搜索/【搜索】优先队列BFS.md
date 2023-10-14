@@ -14,7 +14,7 @@ tags:
   - 优先队列
   - 二叉堆
 title: 【搜索】优先队列BFS
-thumbnail: https://img1.imgtp.com/2023/07/01/O7NAwNwN.jpg
+thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/BFS.jpg
 ---
 ## 前言
 

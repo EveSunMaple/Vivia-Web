@@ -11,7 +11,7 @@ tags:
   - C++
   - OI
 title: 【动态规划】LIS与LCS（最长上升子序列）
-thumbnail: https://img1.imgtp.com/2023/07/01/XK9mCPmr.jpg
+thumbnail: https://saroprock.oss-cn-hangzhou.aliyuncs.com/img/LIS%E4%B8%8ELCS.png
 ---
 ## 引子-LIS问题
 
