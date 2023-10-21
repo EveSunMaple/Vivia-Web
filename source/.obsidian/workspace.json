@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Front-matter.md",
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Front-matter.md",
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Front-matter.md",
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Front-matter.md"
+                "file": "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md"
               }
             }
           },
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 207.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +182,9 @@
   },
   "active": "a071b6b5c337c26d",
   "lastOpenFiles": [
+    "_posts/文化课/未命名.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
+    "Template/Front-matter.md",
     "_posts/文化课/数学/数学整理1.md",
     "_posts/OI学习笔记/数据结构/【数据结构】Splay树（伸展树）.md",
     "_posts/文化课/数学",
@@ -214,9 +217,6 @@
     "_posts/OI学习笔记/数论/【数论】费马小定理.md",
     "_posts/OI学习笔记/数据结构/【数据结构】邻接表与链式前向星.md",
     "_posts/OI学习笔记/数据结构/【数据结构】__int128.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
-    "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
     "_data/未命名.canvas",
     "_posts/随笔/笔随心动",
     "_posts/转载",

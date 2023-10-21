@@ -438,7 +438,7 @@ int nxt()
 
 >首先将 $x$ 旋转到根的位置。
 >
->- 如果 ![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 "cnt[x]>1")（有不止一个 $x$），那么将 $tree[x].cnt$ 减 $1$ 并退出。
+>- 如果 （有不止一个 $x$），那么将 $tree[x].cnt$ 减 $1$ 并退出。
 >- 否则，合并它的左右两棵子树即可。
 
 ```C++
