@@ -14,7 +14,7 @@ info:
   # Author name
   author: EveSunMaple
   # Site URL
-  url: https://www.saroprock.com
+  url: https://old.saroprock.com
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -46,7 +46,7 @@ global:
     chinese: 
       enable: true # Whether to enable custom chinese font
       family: YunFont # Font family
-      url: https://www.saroprock.com/fonts/YunFont.ttf # Font URL to CSS file
+      url: https://old.saroprock.com/fonts/YunFont.ttf # Font URL to CSS file
     # English fonts
     english: 
       enable: false # Whether to enable custom chinese font
@@ -261,7 +261,7 @@ articles:
     font: # Custom font
       enable: true # Whether to enable
       family: CodeFont # Font family
-      url: https://www.saroprock.com/fonts/CodeFont.ttf # Font URL to CSS file
+      url: https://old.saroprock.com/fonts/CodeFont.ttf # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
