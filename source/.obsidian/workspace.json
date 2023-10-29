@@ -11,8 +11,12 @@
             "id": "a071b6b5c337c26d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/文化课/数学/数学整理1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/文化课/数学/数学整理1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/文化课/数学/数学整理1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/文化课/数学/数学整理1.md"
+              }
             }
           },
           {
@@ -172,7 +180,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f74700c421d04176",
+  "active": "a071b6b5c337c26d",
   "lastOpenFiles": [
     "_posts/转载/别像弱智一样提问.md",
     "_posts/转载",
