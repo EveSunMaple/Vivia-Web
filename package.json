@@ -57,7 +57,7 @@
     "katex": "^0.16.9",
     "node-pre-gyp-github": "^1.4.4",
     "nodejieba": "^2.6.0",
-    "typed.js": "^2.0.16",
+    "typed.js": "^2.1.0",
     "valine": "^1.5.1"
   },
   "devDependencies": {
