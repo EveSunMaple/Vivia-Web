@@ -948,8 +948,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-   - <canvas id="universe"></canvas>
-   - <script defer src="/js/universe.js"></script>
+    - <canvas id="universe"></canvas>
+    - <script defer src="/js/universe.js"></script>
     - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <script defer data-pjax src="/js/emoji.js"></script>
