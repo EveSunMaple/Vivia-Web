@@ -54,7 +54,7 @@
     "hexo-theme-vivia": "^0.4.2",
     "hexo-word-counter": "^0.1.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.9",
+    "katex": "^0.16.10",
     "node-pre-gyp-github": "^1.4.4",
     "nodejieba": "^2.6.0",
     "typed.js": "^2.0.16",
